@@ -14,6 +14,7 @@ list_dir = os.listdir(path)
 
 # labels = {"paper":0, "rock":1, "scissors":2}
 labels = {'PcScreen': 0, 'PhoneScreen': 1, 'book': 2}
+# {'PcScreen': 0, 'PhoneScreen': 1, 'book': 2}
 
 test_images = []
 test_images_link = []
@@ -21,7 +22,7 @@ test_labels = []
 
 for i in list_dir:
     path1 = path + i + "/"
-    list_label = os.listdir(path1)
+    list_label = os.listdir(path1) 
     for j in list_label:
         path2 = path1 + j
         test_labels.append(labels[i])
@@ -60,7 +61,7 @@ def run_tflite_model(tflite_file, test_image_indices):
 
     # Check if the input type is quantized, then rescale input data to uint8
     # if input_details['dtype'] == np.uint8:
-    if input_details['dtype'] == np.int8:
+    if input_details['dtype'] == np.int8 or input_details['dtype'] == np.uint8:
       input_scale, input_zero_point = input_details["quantization"]
       test_image = test_image / input_scale + input_zero_point
     # test_image = test_image.astype(np.uint8)
@@ -76,8 +77,9 @@ def run_tflite_model(tflite_file, test_image_indices):
 
 
 test_image_index = random.randint(1, 100)
-tflite_model_quant_file = r"/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/classification/trained_model/pc_book_phone_0904_allint8.tflite"
-
+# tflite_model_quant_file = r"/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/classification/class_08_test_model_2_less.tflite"
+# tflite_model_quant_file = r"/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/classification/trained_model/book_pc_phone.tflite"
+tflite_model_quant_file = r"/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/classification/trained_model/pc_book_phone_0926_lower_train_trainmore.tflite"
 def evaluate_model(tflite_file, model_type):
   test_image_indices = range(test_images.shape[0])
   predictions = run_tflite_model(tflite_file, test_image_indices)
