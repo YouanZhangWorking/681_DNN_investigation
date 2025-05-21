@@ -9,10 +9,10 @@ anchors_size = [32, 59, 86, 113, 141, 168]
 img_width = input_shape[1]
 img_height = input_shape[0]
 anchors = get_anchors(input_shape, anchors_size)  # (x1, y1, x2, y2)
-ymin = anchors[:, 1]
 xmin = anchors[:, 0]
-ymax = anchors[:, 3]
+ymin = anchors[:, 1]
 xmax = anchors[:, 2]
+ymax = anchors[:, 3]
 
 anchors_x= (xmin + xmax) / 2.0
 anchors_y = (ymin + ymax) / 2.0

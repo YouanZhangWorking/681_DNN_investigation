@@ -5,18 +5,21 @@ from PIL import Image
 from keras.models import load_model
 # 模型训练是设定了图片归一化到(-1,1),方法是：img/127.5-1.0
 
-# h5_model_path = "/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/Quantization/20240810_pc_screen.h5"
-# h5_model_path = "/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/Quantization/20240810_pc_screen_2_another_init.h5"
-# h5_model_path = "/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/Quantization/20240810_pc_screen_3_another_init.h5"
-h5_model_path = "/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/Quantization/20240810_pc_screen_5_ssd_init.h5"
-imgs_path = "/home/zhangyouan/桌面/zya/dataset/681/PC_Screen_D/VOCdevkit/VOC2007/JPEGImages/"
+# h5_model_path = "/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/Quantization/test20241120_finetune10_dataset3500_add_resolu.h5"
+# h5_model_path = "/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/Quantization/test20241228_PICO_book_1.h5"
+# h5_model_path = r"/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/Quantization/PICO_weiwei_book_detection_int8_intput_0113.h5"
+# h5_model_path = r"/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/Quantization/PICO_weiwei_model_anchor_move.h5"
+h5_model_path = r"/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/Quantization/PICO_weiwei_model_1024_loc_conf.h5"
+# imgs_path = "/home/zhangyouan/桌面/zya/dataset/681/PC_Screen_D/VOCdevkit/VOC2007/JPEGImages/"
+imgs_path = "/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/"
 
 
 # 设置转换项： 配置转换选项，包括输入数据的数据类型(例如float32和uint8)和优化选项。在这里，需要将激活和权重量化为int8
 keras_model = load_model(h5_model_path, custom_objects={"compute_loss":None})
 converter = tf.lite.TFLiteConverter.from_keras_model(keras_model)
 converter.optimizations = [tf.lite.Optimize.DEFAULT]  # 设置优化选项
-converter.target_spec.supported_types = [tf.int8]  # 将权重和激活量化为int8
+# converter.target_spec.supported_types = [tf.int8]  # 将权重和激活量化为int8
+converter.target_spec.supported_ops = [tf.lite.OpsSet.TFLITE_BUILTINS_INT8]
 converter.inference_input_type = tf.int8
 converter.inference_output_type = tf.int8
 
@@ -49,6 +52,6 @@ converter.representative_dataset = representative_data_gen
 # 2. 将模型转换为TFLite模型，执行转换操作，并将量化的TFLite模型保存为文件；
 tflite_model = converter.convert()
 #    保存为TFLite文件
-with open('20240810_pc_screen_5_ssd_init.tflite', 'wb') as f:
+with open(r'/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/Quantization/PICO_weiwei_model_1024_loc_conf.tflite', 'wb') as f:
     f.write(tflite_model)
-    print("has been written to: 20240810_pc_screen_5_ssd_init.tflite")
+    print("has been written to: PICO_weiwei_model_1024_loc_conf.tflite")

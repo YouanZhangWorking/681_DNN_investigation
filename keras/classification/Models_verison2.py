@@ -58,3 +58,26 @@ def model_version2():
     model.summary()
     
     return model
+
+
+def model_version2_add_cls(cls=3):
+    input_layer = tf.keras.layers.Input(shape=(120, 160, 1))
+    x = tf.keras.layers.Conv2D(3, (3, 3), padding='same', activation='relu')(input_layer)
+
+    x = custom_block(x)
+    x = tf.keras.layers.DepthwiseConv2D((3, 3), strides=2, padding='same', activation="relu")(x)
+    x = tf.keras.layers.Conv2D(32, (1, 1), strides=1, padding='same', activation="relu")(x)
+    x = custom_block2(x)
+    x = custom_block2(x)
+    x = custom_block2(x)
+    # x = custom_block2(x)
+    x = tf.keras.layers.MaxPooling2D(2, 2)(x)
+    x = tf.keras.layers.Flatten()(x)
+    x = tf.keras.layers.Dense(64)(x)
+    x = tf.keras.layers.BatchNormalization()(x)
+    x = tf.keras.layers.Dense(cls, activation='softmax')(x)
+
+    model = tf.keras.models.Model(inputs=input_layer, outputs=x)
+    model.summary()
+    
+    return model

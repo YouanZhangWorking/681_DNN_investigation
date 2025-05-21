@@ -1,6 +1,6 @@
 import tensorflow as tf
 from keras import optimizers
-       
+
 
 def Sample_model(model_summary="False", mode="Train"):
     model = tf.keras.models.Sequential([

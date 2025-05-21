@@ -5,7 +5,8 @@ import numpy as np
 from keras.applications.imagenet_utils import preprocess_input
 from PIL import ImageDraw, ImageFont
 
-from Models import SSD300
+# from Models import SSD300
+from Models_add_norm_reshape import SSD300
 from Anchors import get_anchors
 from utils import get_classes, resize_image, show_config
 from Datasets import cvtColor
@@ -15,9 +16,11 @@ from utils_bbox import BBoxUtility
 class SSD(object):
     _defaults = {
         # "model_path": "/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/SSD_ipynb_transfer_callback_1227hand_yxhw_third_screen/output/pc_screen_2/20240810_pc_screen_4_another_init.h5", 
-        "model_path" : "/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/SSD_ipynb_transfer_callback_1227hand_yxhw_third_screen/output/pc_screen_2/20240909_pc_screen_full_ssd_init.h5",
-        # "model_path" : "/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/Quantization/20240810_pc_screen.h5",
-        "classes_path"      : '/home/zhangyouan/桌面/zya/dataset/681/PC_Screen_D/voc_classes.txt',
+        # "model_path" : "/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/SSD_ipynb_transfer_callback_1227hand_yxhw_third_screen/output/pc_screen_2/20240909_pc_screen_full_ssd_init.h5",
+        "model_path" : "/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/Quantization/20240810_pc_screen.h5",
+        # "model_path": "/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/SSD_ipynb_transfer_callback_1227hand_yxhw_third_screen/output/book_PICO/20241227_book_pico.h5",
+        # "classes_path"      : '/home/zhangyouan/桌面/zya/dataset/681/PC_Screen_D/voc_classes.txt',
+        "classes_path":"/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/voc_classes.txt",
         "input_shape"       : [120, 160],
         #---------------------------------------------------------------------#
         #   只有得分大于置信度的预测框会被保留下来

@@ -1,178 +1,600 @@
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111924_00235.jpg 77,20,104,55,0 107,80,127,100,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111029_00397.jpg 99,37,125,74,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154714_00087.jpg 93,50,115,89,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110257_00083.jpg 55,55,83,94,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111318_00875.jpg 30,58,68,111,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154823_00223.jpg 65,52,97,83,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154650_00027.jpg 77,73,112,100,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111015_00356.jpg 91,60,114,91,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111156_00642.jpg 69,19,122,108,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111059_00484.jpg 80,50,124,112,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111814_00169.jpg 35,49,142,120,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111719_00116.jpg 35,60,73,83,0 70,58,138,120,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111911_00222.jpg 81,70,99,90,0 123,46,148,66,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111555_00017.jpg 72,43,114,91,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154701_00057.jpg 54,22,76,64,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/c_12.jpg 58,1,143,106,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154141_00394.jpg 47,2,99,57,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_153959_00206.jpg 30,26,62,53,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111110_00514.jpg 104,7,143,67,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111700_00088.jpg 23,23,78,78,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111202_00658.jpg 90,42,132,111,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110325_00140.jpg 57,12,82,52,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110242_00061.jpg 89,49,118,93,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111031_00403.jpg 86,44,115,80,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111025_00386.jpg 87,28,115,68,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110204_00011.jpg 110,35,153,105,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111317_00870.jpg 18,57,68,120,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111033_00409.jpg 76,46,102,80,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111201_00655.jpg 88,44,132,118,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111312_00853.jpg 76,54,125,120,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154214_00420.jpg 93,41,133,77,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110307_00098.jpg 18,52,56,102,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154109_00330.jpg 35,41,66,72,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_153839_00059.jpg 94,61,151,120,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154115_00345.jpg 44,66,69,90,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111010_00342.jpg 109,58,136,92,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154104_00320.jpg 56,41,103,78,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/c_22.jpg 49,38,90,86,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154116_00347.jpg 42,73,68,96,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_153856_00103.jpg 19,51,62,97,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111910_00221.jpg 81,70,98,88,0 116,56,142,75,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154147_00406.jpg 69,20,92,42,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154016_00257.jpg 56,22,86,52,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111326_00896.jpg 77,8,127,71,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_153955_00195.jpg 54,27,90,59,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111234_00734.jpg 70,39,131,120,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110938_00253.jpg 77,35,102,74,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111902_00212.jpg 103,78,119,96,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111016_00362.jpg 79,58,104,90,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/b_14.jpg 21,39,89,97,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111030_00400.jpg 93,42,121,77,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111159_00651.jpg 88,45,141,120,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_153857_00106.jpg 5,53,49,95,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110236_00053.jpg 100,42,131,81,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111250_00783.jpg 74,40,124,118,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154657_00046.jpg 22,20,49,67,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110315_00115.jpg 5,36,43,94,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111040_00427.jpg 73,24,105,66,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154239_00444.jpg 72,33,94,60,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_153944_00163.jpg 95,19,126,49,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_153959_00205.jpg 32,25,66,56,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111643_00063.jpg 64,31,118,65,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111924_00236.jpg 74,31,92,53,0 108,80,125,99,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154252_00480.jpg 68,4,84,36,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111611_00026.jpg 24,17,63,57,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111233_00731.jpg 94,42,141,111,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154043_00276.jpg 36,16,74,50,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110300_00086.jpg 50,55,80,93,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154000_00208.jpg 23,24,54,52,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154455_00532.jpg 13,4,54,93,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111100_00487.jpg 77,54,122,117,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111043_00435.jpg 71,44,106,90,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111143_00608.jpg 38,13,66,49,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154013_00250.jpg 79,29,107,61,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111205_00664.jpg 101,47,141,107,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110351_00207.jpg 76,55,109,89,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111228_00716.jpg 64,25,103,93,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111146_00619.jpg 56,9,79,47,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111229_00720.jpg 74,30,107,91,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154642_00002.jpg 23,49,47,83,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_153013_00011.jpg 98,28,160,112,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154007_00232.jpg 2,34,43,67,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154056_00299.jpg 19,66,50,96,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110924_00233.jpg 79,58,109,102,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154500_00541.jpg 56,54,115,117,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111228_00715.jpg 61,30,102,95,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111718_00115.jpg 21,43,81,90,0 22,69,119,119,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111834_00187.jpg 39,8,79,39,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154714_00086.jpg 96,53,118,93,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111137_00591.jpg 20,27,54,73,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111057_00480.jpg 89,51,126,102,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111308_00841.jpg 112,56,145,103,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111314_00858.jpg 48,56,97,120,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110223_00032.jpg 128,46,160,89,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110335_00168.jpg 79,8,103,44,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/a_15.jpg 26,34,131,120,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111918_00229.jpg 83,61,116,75,0 103,82,122,100,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111731_00130.jpg 3,48,90,115,0 101,28,160,119,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111142_00607.jpg 38,12,64,51,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111246_00772.jpg 39,44,81,105,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111906_00217.jpg 80,69,94,85,0 109,53,131,75,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154020_00267.jpg 7,24,34,55,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111716_00112.jpg 21,49,106,107,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111041_00429.jpg 84,26,113,67,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111647_00069.jpg 60,33,94,57,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_153951_00182.jpg 100,31,128,58,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110957_00302.jpg 64,19,88,56,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110353_00209.jpg 93,47,118,86,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110350_00204.jpg 69,56,106,79,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111031_00404.jpg 84,45,111,79,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154700_00055.jpg 39,18,64,59,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111730_00129.jpg 15,51,78,114,0 92,33,159,118,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/a_21.jpg 57,53,133,103,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111711_00104.jpg 23,26,101,102,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110318_00124.jpg 17,9,55,65,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110953_00289.jpg 28,6,58,48,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111313_00857.jpg 49,55,101,120,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111012_00348.jpg 101,59,127,91,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_153856_00101.jpg 22,54,69,100,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154438_00492.jpg 34,15,138,120,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110229_00041.jpg 114,43,144,83,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111525_00005.jpg 14,20,109,76,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111112_00521.jpg 94,19,140,93,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_153025_00015.jpg 95,1,159,85,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110321_00130.jpg 36,1,71,49,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111135_00585.jpg 36,28,68,69,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110320_00129.jpg 34,4,70,52,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_153951_00180.jpg 108,30,136,59,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111812_00167.jpg 60,51,150,118,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_153842_00067.jpg 93,46,140,100,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111005_00327.jpg 115,33,139,67,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111745_00148.jpg 47,57,97,100,0 100,37,159,94,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154106_00324.jpg 36,38,80,83,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110227_00038.jpg 119,43,150,83,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111031_00405.jpg 82,45,111,80,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111120_00542.jpg 29,22,70,79,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111004_00325.jpg 114,29,138,68,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111205_00663.jpg 103,49,146,111,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111016_00360.jpg 85,60,111,91,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154116_00348.jpg 42,75,68,99,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111322_00886.jpg 65,57,102,109,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154246_00462.jpg 76,8,91,33,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110931_00237.jpg 68,57,108,101,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110325_00139.jpg 56,10,81,52,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_153039_00021.jpg 71,1,160,80,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111315_00862.jpg 36,54,85,120,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_153913_00126.jpg 79,27,113,63,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154451_00524.jpg 34,5,96,94,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154100_00309.jpg 50,60,83,86,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110234_00049.jpg 105,45,134,85,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111133_00580.jpg 50,28,83,72,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111044_00436.jpg 60,40,99,94,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_153957_00199.jpg 45,26,77,57,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111814_00170.jpg 65,38,160,113,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110957_00304.jpg 70,23,95,58,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154001_00211.jpg 18,24,51,49,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111237_00744.jpg 56,17,101,83,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_153956_00196.jpg 51,28,86,60,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110342_00187.jpg 90,19,113,55,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110331_00159.jpg 69,14,93,50,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_153846_00075.jpg 95,44,141,91,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_153821_00026.jpg 2,41,79,109,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111013_00351.jpg 99,60,125,91,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111009_00339.jpg 113,50,143,85,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110219_00027.jpg 122,43,154,89,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_153835_00050.jpg 72,61,128,120,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110250_00073.jpg 72,52,101,96,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111607_00023.jpg 22,30,85,94,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110154_00005.jpg 90,13,144,98,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111125_00556.jpg 84,34,119,85,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111054_00469.jpg 94,43,129,80,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_110238_00056.jpg 96,42,128,85,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111146_00618.jpg 53,8,78,43,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111753_00159.jpg 1,93,27,119,0 114,10,160,84,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_154742_00134.jpg 37,12,61,50,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230315_153835_00048.jpg 65,63,125,120,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/231116_111553_00016.jpg 63,45,97,76,0
-/home/zhangyouan/桌面/zya/dataset/681/hand/VOCdevkit/VOC2007/JPEGImages/230317_111053_00463.jpg 91,31,124,70,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163043_01515.png 9,30,88,100,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113412_00468.png 38,16,98,84,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161652_00352.png 78,6,156,84,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113900_00868.png 39,65,87,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163046_01520.png 23,60,97,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164104_02609.png 59,49,103,83,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120150_01520.png 60,1,116,44,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163606_02123.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164617_03343.png 95,1,146,21,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163027_01486.png 63,6,135,85,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162926_01346.png 79,1,160,59,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163504_01975.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120137_01470.png 54,30,110,93,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163525_02044.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164835_03573.png 78,99,108,120,0 6,10,95,117,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162558_01016.png 52,33,106,113,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161915_00540.png 23,19,105,90,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164822_03531.png 4,17,78,103,0 53,93,85,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161537_00261.png 11,15,84,101,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161835_00462.png 1,1,58,77,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161708_00385.png 10,1,92,81,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161329_00122.png 64,19,120,95,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113733_00704.png 36,3,99,77,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112656_00156.png 96,7,158,79,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114357_01148.png 61,19,127,94,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113236_00334.png 66,53,123,105,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164753_03461.png 82,1,160,54,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164223_02789.png 15,26,62,75,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165720_00381.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164435_03025.png 89,22,125,50,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162558_01018.png 68,45,126,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164052_02571.png 97,41,139,81,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164003_02433.png 57,23,110,87,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164613_03330.png 82,1,151,63,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164221_02785.png 18,1,70,49,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114250_00953.png 62,10,113,78,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164630_03386.png 60,1,118,76,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163925_02358.png 56,1,160,115,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162528_00978.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113422_00492.png 55,22,114,92,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163134_01653.png 9,14,92,93,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114643_01367.png 65,21,118,82,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161711_00395.png 62,7,138,90,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112913_00252.png 55,64,105,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163325_01816.png 81,11,160,111,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163052_01538.png 16,1,110,78,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163614_02148.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163719_02306.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161458_00193.png 68,47,132,116,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164018_02475.png 18,17,72,87,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161338_00138.png 70,1,129,83,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161911_00531.png 44,21,116,92,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164324_02824.png 67,68,103,95,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164412_02979.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162518_00965.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161159_00082.png 28,38,85,117,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163606_02120.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164741_03424.png 57,1,140,102,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162203_00822.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163327_01823.png 14,36,96,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114647_01380.png 41,30,96,83,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161921_00557.png 57,43,118,108,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113430_00513.png 61,18,124,92,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162036_00659.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163522_02035.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163707_02264.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113842_00836.png 62,6,131,91,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162230_00885.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114458_01236.png 54,50,121,114,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164539_03270.png 46,18,83,42,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162602_01026.png 56,22,124,103,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163520_02026.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163524_02040.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113244_00345.png 56,29,110,87,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165625_00219.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120200_01558.png 83,1,141,39,0 84,1,144,40,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164335_02862.png 82,47,110,74,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163928_02367.png 62,16,133,87,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165627_00227.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113919_00888.png 92,11,148,90,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165650_00276.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162205_00825.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163642_02195.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161327_00116.png 28,3,83,82,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162206_00828.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161636_00328.png 41,1,107,76,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163512_02000.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161524_00227.png 39,6,116,96,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163554_02088.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164337_02866.png 50,92,78,119,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164740_03421.png 50,1,124,73,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114347_01105.png 35,43,95,113,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162517_00964.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120224_01648.png 64,40,116,100,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162727_01166.png 59,30,113,108,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113510_00542.png 22,7,102,87,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163645_02201.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164451_03090.png 27,1,72,61,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164346_02893.png 71,60,95,80,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113415_00473.png 35,16,93,80,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113319_00347.png 9,10,105,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161918_00549.png 10,33,104,114,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165539_00066.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114235_00912.png 32,1,94,68,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113333_00388.png 2,4,84,104,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164456_03108.png 57,14,91,41,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164622_03362.png 48,26,114,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164337_02868.png 45,102,83,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164205_02742.png 60,67,114,119,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113626_00617.png 42,14,99,88,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163331_01836.png 28,34,103,118,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163930_02372.png 101,10,160,105,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161912_00533.png 53,36,112,98,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164050_02562.png 104,27,140,66,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162019_00613.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161622_00287.png 13,1,105,63,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165710_00349.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164428_02997.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113502_00526.png 20,1,114,89,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113822_00776.png 103,1,159,40,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165714_00363.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113853_00846.png 42,55,90,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112951_00313.png 77,43,141,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164348_02900.png 77,70,95,85,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120220_01629.png 28,11,83,83,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113624_00613.png 21,6,100,92,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120331_01808.png 64,42,112,94,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165717_00371.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165552_00112.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163055_01547.png 69,35,159,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162040_00671.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165613_00173.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164341_02881.png 116,48,152,75,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165644_00253.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162044_00685.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162816_01293.png 72,1,144,72,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162605_01037.png 56,47,119,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163457_01954.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113241_00341.png 57,30,106,87,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164350_02906.png 65,68,87,86,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165852_00484.png 1,1,75,65,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114649_01387.png 58,1,143,80,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164832_03563.png 1,25,79,119,0 59,102,86,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163515_02011.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161333_00129.png 23,53,82,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162927_01351.png 49,32,124,111,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114333_01048.png 57,13,125,89,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164052_02570.png 97,35,140,78,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114453_01215.png 52,3,120,75,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114343_01084.png 74,20,149,100,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164529_03235.png 44,43,81,74,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163112_01589.png 35,14,121,100,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113747_00746.png 75,1,133,76,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164433_03018.png 88,5,124,27,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165856_00499.png 1,1,84,81,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162828_01324.png 40,1,124,77,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162633_01061.png 57,1,127,92,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164630_03388.png 57,2,114,76,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162024_00627.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165709_00343.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162820_01304.png 66,14,145,108,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165702_00316.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114357_01147.png 28,1,107,76,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164514_03178.png 88,26,121,56,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114655_01403.png 42,17,120,98,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114400_01159.png 23,1,109,71,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162551_00993.png 32,3,123,118,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165618_00191.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164053_02573.png 96,43,133,84,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113740_00723.png 46,5,99,76,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163032_01502.png 1,24,75,118,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164603_03294.png 55,12,107,92,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163708_02268.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120212_01597.png 43,17,109,89,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164826_03545.png 47,22,109,112,0 77,101,104,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162611_01044.png 61,7,135,99,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113634_00638.png 71,24,134,96,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162208_00836.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114311_00997.png 23,7,80,78,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113420_00487.png 36,14,100,81,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113840_00831.png 85,1,160,67,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162235_00900.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120234_01692.png 68,24,125,86,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113843_00841.png 68,30,131,107,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161211_00105.png 11,7,75,98,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120250_01697.png 65,20,103,77,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161926_00571.png 89,52,157,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164559_03283.png 140,1,160,22,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161340_00142.png 80,1,135,76,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162642_01093.png 44,1,122,83,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163548_02071.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112951_00312.png 72,20,140,106,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114359_01155.png 27,1,108,83,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163527_02052.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162758_01245.png 62,1,131,62,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112807_00197.png 18,19,92,107,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163559_02101.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114242_00930.png 31,31,87,99,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112919_00265.png 25,42,72,107,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163936_02391.png 27,1,99,67,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164112_02631.png 21,79,68,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113402_00434.png 44,18,112,96,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163138_01665.png 26,34,95,101,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164336_02863.png 75,54,102,76,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164144_02674.png 59,33,99,79,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164605_03299.png 69,1,129,30,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162138_00782.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162554_01005.png 33,1,111,80,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120226_01656.png 52,28,111,103,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161932_00590.png 49,46,114,111,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114509_01278.png 17,29,98,105,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161140_00046.png 70,14,126,100,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114620_01299.png 17,21,82,92,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165534_00051.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164340_02875.png 104,88,137,114,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164019_02477.png 24,29,73,101,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165552_00111.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163328_01827.png 1,36,84,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164737_03407.png 66,1,130,84,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165650_00275.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164400_02938.png 88,64,123,98,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163506_01981.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165720_00380.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162725_01159.png 27,6,104,99,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164052_02569.png 101,36,140,75,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161137_00040.png 92,13,154,98,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162749_01237.png 15,1,133,90,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163519_02025.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162744_01222.png 37,1,125,88,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161329_00121.png 68,11,128,91,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164520_03200.png 51,1,91,23,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112710_00177.png 4,27,80,107,0 64,87,84,104,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163025_01478.png 73,1,148,63,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114500_01244.png 41,48,110,117,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114405_01180.png 48,47,110,116,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120148_01513.png 76,1,142,66,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162557_01014.png 27,27,89,118,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163303_01751.png 23,40,102,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164149_02691.png 12,27,63,79,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165641_00242.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163611_02138.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114316_01015.png 23,20,91,97,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165642_00245.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165312_00017.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162229_00882.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163941_02409.png 58,1,119,68,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161848_00483.png 51,38,102,92,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163354_01910.png 86,22,154,107,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164047_02553.png 94,3,130,47,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165900_00511.png 1,1,77,82,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163057_01552.png 86,1,160,100,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162815_01291.png 46,1,114,62,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162648_01109.png 50,13,120,88,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162228_00881.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163029_01493.png 41,65,110,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112654_00153.png 92,52,154,119,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113843_00840.png 65,27,129,104,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113918_00885.png 73,1,126,77,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165901_00516.png 1,1,84,101,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163911_02318.png 2,12,76,103,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163603_02112.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114632_01336.png 32,1,103,57,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163105_01579.png 52,48,126,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164409_02970.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164531_03242.png 70,29,103,55,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112257_00116.png 13,44,74,115,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163025_01479.png 65,1,143,65,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114455_01223.png 80,8,147,87,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165659_00307.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161931_00586.png 34,29,107,100,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164234_02813.png 36,46,80,93,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162155_00797.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161532_00246.png 44,20,117,104,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163715_02289.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164837_03582.png 59,100,86,120,0 10,23,86,111,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164352_02911.png 62,48,95,83,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161401_00153.png 27,11,86,90,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165715_00365.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162933_01371.png 63,22,119,84,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164401_02943.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113839_00826.png 93,1,160,55,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164504_03139.png 76,31,108,56,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164838_03584.png 63,95,90,120,0 22,17,95,105,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113331_00383.png 43,31,108,116,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114622_01307.png 5,18,76,88,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165545_00088.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112151_00067.png 54,14,101,87,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113932_00903.png 49,46,113,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161208_00099.png 1,23,56,117,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164051_02563.png 102,34,136,71,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114345_01094.png 7,1,87,72,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114701_01422.png 67,28,135,95,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163300_01741.png 22,22,109,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163358_01921.png 48,25,123,111,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113827_00791.png 58,1,121,76,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113655_00683.png 23,9,103,77,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161339_00140.png 75,1,133,77,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_111710_00057.png 84,41,124,103,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112916_00260.png 45,1,101,67,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161543_00276.png 14,27,92,108,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164619_03351.png 118,1,160,61,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161146_00057.png 52,5,113,91,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113428_00508.png 12,19,89,103,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161826_00439.png 69,23,146,93,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113749_00751.png 59,1,111,77,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165307_00000.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162049_00699.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164012_02457.png 48,11,112,92,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163943_02415.png 57,4,116,78,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161639_00335.png 27,17,95,94,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114403_01169.png 83,1,160,85,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164233_02811.png 43,37,83,82,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165858_00505.png 1,5,85,94,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120146_01504.png 108,1,160,79,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162822_01310.png 35,14,107,118,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164457_03113.png 49,3,85,29,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162612_01048.png 55,1,133,96,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163302_01746.png 30,1,112,85,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163343_01876.png 48,17,116,98,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161328_00119.png 42,1,108,69,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162116_00747.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164537_03264.png 47,26,83,55,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162924_01339.png 81,2,151,83,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162513_00950.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114700_01420.png 68,39,133,103,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161907_00521.png 36,66,100,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164532_03245.png 59,19,94,44,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164349_02903.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113615_00591.png 37,34,96,106,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163921_02348.png 37,17,113,106,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163922_02352.png 55,31,146,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164815_03507.png 7,16,81,110,0 60,94,86,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113505_00534.png 10,36,89,117,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161509_00211.png 60,35,122,112,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114652_01394.png 5,9,100,103,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163655_02230.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114648_01383.png 45,15,109,79,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162926_01347.png 71,1,151,76,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164634_03399.png 58,1,110,41,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162824_01314.png 18,1,121,78,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161710_00392.png 45,10,120,95,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164108_02619.png 52,28,96,67,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113844_00843.png 75,24,144,103,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164143_02670.png 61,38,104,85,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164744_03431.png 62,6,91,39,0 61,35,120,116,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164510_03164.png 70,1,118,39,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163604_02117.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163504_01976.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162745_01225.png 55,34,125,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162530_00982.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164207_02747.png 100,29,160,107,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162044_00686.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165903_00524.png 1,1,65,93,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163609_02132.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164054_02576.png 95,39,129,77,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163457_01955.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163620_02165.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112937_00281.png 74,22,128,89,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114624_01313.png 30,1,100,67,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113618_00598.png 33,17,111,102,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112230_00098.png 79,1,141,64,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164802_03490.png 51,33,125,120,0 61,3,94,34,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162138_00784.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163322_01809.png 43,1,130,73,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163150_01681.png 54,27,123,99,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162636_01074.png 70,7,130,97,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113825_00784.png 90,1,160,52,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164522_03209.png 108,23,142,43,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112856_00237.png 1,3,78,85,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162650_01116.png 26,1,84,90,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114301_00993.png 14,1,82,72,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113640_00653.png 45,7,123,93,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113350_00422.png 32,18,124,106,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161534_00251.png 37,2,104,89,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114451_01210.png 40,27,110,93,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165723_00394.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161526_00231.png 23,16,98,101,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114644_01369.png 56,17,106,78,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114242_00929.png 28,26,84,95,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162221_00861.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164037_02525.png 76,1,132,53,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114503_01256.png 28,22,103,94,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162025_00628.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113612_00583.png 50,34,104,102,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162052_00705.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113326_00368.png 40,10,119,105,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164623_03366.png 43,13,90,83,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113457_00522.png 21,1,120,92,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113821_00773.png 81,1,147,56,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164326_02833.png 72,92,107,116,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164402_02945.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120205_01571.png 74,9,136,78,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112707_00172.png 1,1,90,74,0 86,58,109,81,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163719_02305.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162923_01337.png 78,3,147,79,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114320_01028.png 48,2,105,69,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120328_01801.png 81,50,124,103,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162925_01344.png 81,1,159,72,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120232_01686.png 63,36,120,103,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120316_01758.png 85,1,137,61,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112718_00181.png 13,16,85,97,0 70,79,90,98,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114249_00951.png 58,14,109,80,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113745_00739.png 73,1,133,68,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164523_03212.png 86,23,118,42,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163057_01556.png 75,1,160,51,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164804_03496.png 5,1,83,113,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162221_00860.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120252_01703.png 57,43,95,96,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164830_03554.png 1,18,84,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162126_00759.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164535_03256.png 57,36,90,60,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163715_02292.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165655_00291.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120207_01579.png 80,16,146,85,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164502_03132.png 87,14,121,38,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113614_00589.png 44,27,100,96,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163332_01839.png 39,27,111,119,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163634_02170.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163050_01534.png 41,1,125,82,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164208_02750.png 92,6,152,82,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161153_00070.png 1,1,67,89,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164621_03358.png 97,39,160,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164448_03076.png 63,34,95,61,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114502_01251.png 29,33,102,104,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163712_02280.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161129_00026.png 57,1,160,100,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120303_01729.png 73,39,118,94,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163551_02079.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114455_01224.png 80,17,148,93,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114503_01254.png 29,27,103,98,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163054_01543.png 28,44,105,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112644_00141.png 66,27,120,99,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161921_00556.png 48,40,103,105,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113740_00726.png 43,1,92,72,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164007_02444.png 105,1,160,67,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162955_01441.png 57,17,120,91,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114332_01043.png 94,29,160,106,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_111701_00050.png 84,37,135,108,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161815_00415.png 53,1,120,44,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162208_00837.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113337_00399.png 68,58,131,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162707_01146.png 32,21,105,114,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165848_00469.png 1,1,87,89,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165607_00157.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161928_00576.png 99,2,160,87,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162556_01010.png 33,1,89,88,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_110839_00008.png 55,3,131,92,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162224_00870.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120312_01747.png 60,5,110,64,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114334_01051.png 32,3,106,87,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162638_01079.png 49,1,127,90,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165708_00339.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164627_03377.png 62,1,137,59,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165717_00373.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164401_02942.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164803_03494.png 35,24,105,120,0 46,1,78,23,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113744_00736.png 37,7,102,87,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164011_02454.png 48,25,116,101,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165708_00340.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164102_02601.png 77,19,118,61,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112959_00329.png 82,1,159,51,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114352_01126.png 59,16,132,96,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113525_00576.png 1,29,83,117,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113406_00448.png 17,24,97,110,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161146_00056.png 55,1,117,84,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162938_01388.png 75,1,151,49,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120229_01673.png 54,26,114,94,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162705_01138.png 46,30,101,119,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161851_00493.png 42,58,100,117,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164635_03404.png 85,1,144,38,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114636_01349.png 34,47,92,109,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162736_01197.png 84,1,150,75,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112654_00154.png 93,40,151,105,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161656_00356.png 66,1,145,82,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164021_02484.png 23,10,79,73,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161443_00183.png 50,61,101,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163121_01614.png 50,13,132,95,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112812_00202.png 1,29,70,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120134_01458.png 69,13,136,85,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165915_00556.png 29,37,101,89,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161625_00297.png 30,10,108,99,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_111712_00060.png 89,39,132,98,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162112_00736.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162557_01013.png 27,14,85,112,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112952_00315.png 78,64,137,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164845_03606.png 6,32,82,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114352_01125.png 60,10,135,92,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163331_01833.png 24,36,100,118,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114358_01152.png 81,30,151,107,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120142_01488.png 100,1,160,68,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161927_00573.png 86,10,160,89,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162702_01127.png 45,1,122,89,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114508_01277.png 9,32,93,109,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114344_01089.png 36,1,112,73,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112913_00253.png 56,65,107,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163026_01480.png 67,1,144,53,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163551_02081.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164436_03027.png 85,22,124,51,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112710_00176.png 11,23,82,100,0 63,82,82,100,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164540_03274.png 55,19,85,39,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120150_01519.png 57,1,114,50,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163344_01879.png 63,37,134,117,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162113_00737.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120141_01483.png 82,1,160,57,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163717_02298.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161404_00162.png 47,22,104,95,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_111120_00026.png 18,1,99,88,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164614_03331.png 80,1,146,58,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120324_01789.png 69,36,117,89,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161525_00229.png 33,1,112,84,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163705_02259.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163247_01704.png 76,1,158,68,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112225_00093.png 82,2,141,79,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163055_01546.png 68,34,154,119,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163243_01701.png 71,1,147,67,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162828_01325.png 40,1,115,89,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164104_02607.png 68,56,108,94,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112652_00151.png 84,57,144,119,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164507_03153.png 62,16,95,41,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112857_00238.png 1,1,80,77,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162948_01419.png 1,1,68,112,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_111111_00024.png 89,9,158,98,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164216_02777.png 2,1,65,60,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113833_00807.png 92,12,160,103,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165307_00001.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114633_01339.png 49,1,115,68,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161833_00456.png 18,41,86,112,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161911_00530.png 50,15,130,93,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163342_01872.png 9,3,95,105,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161656_00357.png 71,1,148,75,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164157_02718.png 72,27,112,75,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163522_02034.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113416_00476.png 29,8,87,74,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165320_00043.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163103_01573.png 1,3,87,91,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162051_00703.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113745_00738.png 58,9,122,91,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163718_02303.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114347_01104.png 32,41,95,109,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164156_02713.png 62,35,104,84,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165726_00410.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161852_00494.png 41,50,102,108,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165549_00100.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165732_00420.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120216_01614.png 44,1,121,59,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113622_00607.png 61,14,117,88,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165316_00026.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163616_02154.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161131_00031.png 85,1,152,94,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164738_03411.png 55,1,134,72,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164416_02992.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161635_00324.png 33,29,97,104,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120252_01705.png 61,47,99,101,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164148_02686.png 23,4,71,54,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161154_00072.png 1,1,65,78,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113931_00901.png 42,55,123,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162514_00956.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162648_01111.png 54,1,135,77,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164218_02781.png 20,4,66,57,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162829_01330.png 65,2,124,98,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161846_00479.png 21,21,86,87,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114621_01303.png 20,27,83,94,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161707_00383.png 19,1,99,77,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161819_00426.png 72,1,142,61,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163603_02114.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162935_01377.png 49,9,114,79,0 61,105,92,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162803_01261.png 1,21,75,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164114_02638.png 1,31,50,91,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163716_02295.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161127_00022.png 66,1,143,92,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164630_03385.png 64,1,124,76,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162059_00726.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_114654_01400.png 22,20,110,108,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165706_00330.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164235_02815.png 16,35,65,83,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164429_03000.png
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_112934_00276.png 84,1,160,72,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113624_00614.png 15,8,92,93,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_111707_00054.png 84,31,126,87,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113651_00680.png 50,4,123,79,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164038_02529.png 79,11,134,68,0 92,86,146,119,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162931_01364.png 72,1,147,65,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163035_01511.png 65,4,139,89,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163924_02355.png 54,32,155,120,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_165844_00453.png 1,7,68,94,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161704_00374.png 63,6,137,89,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163113_01594.png 28,43,102,115,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161141_00048.png 65,4,124,93,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164059_02590.png 40,1,89,29,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164121_02659.png 67,25,115,71,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163048_01529.png 55,7,145,85,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162949_01422.png 30,18,95,82,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164359_02934.png 67,39,104,70,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_162724_01157.png 33,1,108,87,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113505_00532.png 6,22,85,106,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_164615_03336.png 51,1,115,75,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_163337_01855.png 44,6,127,99,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_161440_00179.png 55,29,98,87,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_120206_01575.png 89,1,156,72,0
+/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/JPEGImages/241206_113821_00772.png 79,1,143,56,0

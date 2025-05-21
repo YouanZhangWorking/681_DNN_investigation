@@ -17,7 +17,8 @@ from Anchors import get_anchors
 from Datasets import SSDDatasets
 from learning_rate import WarmUpCosineDecayScheduler
 from loss import MultiboxLoss
-from Models import SSD300
+# from Models import SSD300
+from Models_add_norm_reshape import SSD300
 from utils import get_classes, show_config
 from log_record import record_log, read_log
 from keras.callbacks import (EarlyStopping, LearningRateScheduler,
@@ -31,20 +32,20 @@ from keras.regularizers import l2
 if __name__ == "__main__":
     
     # 设置训练参数
-    Epoch = 1000  # 训练100 epochs
-    lr = 1e-3  # Adam优化器，所以较小的学习率
+    Epoch = 200  # 训练100 epochs
+    lr = 1e-2  # Adam优化器，所以较小的学习率
     optimizer_type = "Adam"
     momentum = 0.937
     batch_size = 32
     imgcolor = 'grey'  # imgcolor选“rgb” or “grey”, 则处理图像变单通道或者三通道
-    save_dir = "/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/SSD_ipynb_transfer_callback_1227hand_yxhw_third_screen/output/PhoneScreen"
+    save_dir = "/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/SSD_ipynb_transfer_callback_1227hand_yxhw_third_screen/output/book_PICO"
     
     # 设置SSD参数
-    cls_name_path = r"/home/zhangyouan/桌面/zya/dataset/681/PhoneScreen/voc_classes.txt"  # 导入目标检测类别；
+    cls_name_path = r"/home/zhangyouan/桌面/zya/dataset/681/Book_PC_1206_crop/VOC2007/voc_classes.txt"  # 导入目标检测类别；
     input_shape = [120, 160]  # 输入的尺寸大小
     anchor_size = [32, 59, 86, 113, 141, 168]  # 用于设定先验框的大小，根据公式计算而来；如果要检测小物体，修改浅层先验框的大小，越小的话，识别的物体越小；    
-    train_annotation_path = r'/home/zhangyouan/桌面/zya/dataset/681/PhoneScreen/2007_trainval.txt'  # 训练图片路径和标签
-    val_annotation_path = r'/home/zhangyouan/桌面/zya/dataset/681/PhoneScreen/2007_test.txt'  # 验证图片路径和标签
+    train_annotation_path = r'/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/Img_Pro/preprocessing/2007_trainval.txt'  # 训练图片路径和标签
+    val_annotation_path = r'/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/Img_Pro/preprocessing/2007_test.txt'  # 验证图片路径和标签
     
     # 1. 获取classes和anchor
     class_names, num_cls = get_classes(cls_name_path)
@@ -63,8 +64,9 @@ if __name__ == "__main__":
     model = SSD300((input_shape[0], input_shape[1], 1), num_cls)
     # model.save("template.h5")
     # model.summary()
-    if model_path != "":
-        model.load_weights(model_path, by_name = True, skip_mismatch=True)
+    # if model_path != "":
+        # model.load_weights(model_path, by_name = True, skip_mismatch=True)
+    model.load_weights("/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/SSD_ipynb_transfer_callback_1227hand_yxhw_third_screen/output/yeah/20241129_yeah_pre_train.h5", by_name = True, skip_mismatch=True)
        
     # 4. 优化器
     # optimizer = Adam(lr = lr, beta_1=momentum)
@@ -122,7 +124,7 @@ if __name__ == "__main__":
         # 学习率调整方法2. keras.callbacks.ReduceLROnPlateau(monitor='val_loss', factor=0.1, patience=2, verbose=0, mode='auto',min_lr=0.000001),
         # Epoch结束回调LearningRateSchrduler(schrduler, verbose=1),
         keras.callbacks.TensorBoard(log_dir=os.path.join(save_dir, 'unetlogs'), update_freq=1000), #参数分别为日志存储路径和每多少step进行一次记录，此处不应取太小，会拖慢训练过程
-        # eval_callback,  # 精度评价；
+        eval_callback,  # 精度评价；
     ]
     # 8. 开始训练；
     history = model.fit_generator(
@@ -136,5 +138,5 @@ if __name__ == "__main__":
     )  # 使用tensorboard --logdir="" 调用查看loss
     
     record_log(history, filename = os.path.join(save_dir, "unetlogs/log.txt"))
-    model.save(os.path.join(save_dir, "20240910_PhoneScreen_ssd_init.h5"))
-    model.save(os.path.join(save_dir, "20240910_PhoneScreen_ssd_init.pb"))
+    model.save(os.path.join(save_dir, "20241227_book_pico.h5"))
+    model.save(os.path.join(save_dir, "20241227_book_pico.pb"))
