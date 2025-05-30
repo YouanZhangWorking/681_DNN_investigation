@@ -52,7 +52,7 @@ def model_version2():
     x = tf.keras.layers.Flatten()(x)
     x = tf.keras.layers.Dense(64)(x)
     x = tf.keras.layers.BatchNormalization()(x)
-    x = tf.keras.layers.Dense(3, activation='softmax')(x)
+    x = tf.keras.layers.Dense(2, activation='softmax')(x)
 
     model = tf.keras.models.Model(inputs=input_layer, outputs=x)
     model.summary()
