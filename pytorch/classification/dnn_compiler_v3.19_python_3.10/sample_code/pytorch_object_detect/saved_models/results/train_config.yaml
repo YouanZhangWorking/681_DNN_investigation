@@ -1,0 +1,25 @@
+# Copyright 2025 Sony Semiconductor Solutions Corporation. This is UNPUBLISHED PROPRIETARY SOURCE
+# CODE of Sony Semiconductor Solutions Corporation. No part of this file may be copied, modified, 
+# sold, and distributed in any form or by any means without prior explicit permission in writing 
+# of Sony Semiconductor Solutions Corporation.
+
+params:  
+  dataset_path: './dummy_dataset/train/'
+  validation_dataset: './dummy_dataset/validation/'
+  checkpoint_folder: './saved_models/result5_qat_lr_rest_02/'
+  annotation_format: 'yolo'
+  label_file: './model/config/label_map/circle-rectangle-model-labels.txt'
+  batch_size: 8
+  num_workers: 0
+  base_net_lr: null
+  extra_layers_lr: null
+  base_net: null
+  use_cuda: true
+  lr: 0.001 
+  momentum: 0.9
+  weight_decay: 0.0005
+  num_epochs: 150
+  quantize_after: 75
+  validation_epochs: 5
+  debug_steps: 100
+  t_max: 101 # Number of epochs before cosine anneal resets

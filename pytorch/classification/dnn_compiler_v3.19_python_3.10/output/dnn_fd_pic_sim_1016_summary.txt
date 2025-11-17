@@ -1,0 +1,893 @@
+-------------------------------------------------
+MEMORY USAGE
+-------------------------------------------------
+Memory Sizes         Bytes Used     Total Available
+---------------------------------------------------
+System RAM                 6616               24576
+---------------------------------------------------
+Operation Table            5320
+Quantization Parameters     596
+Miscellaneous Data          700
+
+---------------------------------------------------
+DNN RAM                  188740              242944
+---------------------------------------------------
+Weights & Biases          59840
+Scratch RAM              128900
+
+-------------------------------------------------
+REGISTER SETTINGS
+-------------------------------------------------
+DNN_WEIGHT_ADDR         = 0x00280000
+DNN_OPTABLE_ADDR        = 0x00185c00
+DNN_QUANT_PARAM_ADDR    = 0x001870c8
+DNN_MISC_DATA_ADDR      = 0x0018731c
+DNN_POSTPROC_THRESHOLD0 = 0x32
+DNN_POSTPROC_THRESHOLD1 = 0x05
+DNN_POSTPROC_THRESHOLD2 = 0x05
+DNN_POSTPROC_THRESHOLD3 = 0x0a
+DNN_POSTPROC_THRESHOLD4 = 0x0a
+DNN_POSTPROC_THRESHOLD5 = 0x0a
+DNN_POSTPROC_THRESHOLD6 = 0x0a
+DNN_POSTPROC_THRESHOLD7 = 0x0a
+DNN_POSTPROC_THRESHOLD8 = 0x0a
+
+-------------------------------------------------
+STRUCTURE LOAD ADDRESSES
+-------------------------------------------------
+dnn_fd_pic_sim_1016_system_memory.bin = 0x00185c00
+dnn_fd_pic_sim_1016_dnn_memory.bin    = 0x00280000
+
+-------------------------------------------------
+DNN OPERATIONS SUMMARY
+-------------------------------------------------
+OPERATION 0: DEPTHWISE_CONV_2D (Working Mem: 0x002a0e7c, Params: 0x00000000)
+  Parameters:
+    pad=(L:0, R:1, T:0, B:1), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    152     1 x 122 x 162 x 1     S CHAR  SCRATCH_RAM   0x2b8ae5  (55, 75)    66 x 86     162         19764       0       1       PER_TENSOR    0.00576 -45     
+    2       1 x 3 x 3 x 8         S CHAR  STATIC_DATA   0x280000  (0, 0)      3 x 3       24          72          -1      1       PER_TENSOR    0.01600 0       
+    3       8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x280048  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00009 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    151     1 x 65 x 85 x 8       S CHAR  SCRATCH_RAM   0x2abb24  (0, 0)      65 x 85     680         44200       -1      2       PER_TENSOR    0.01434 -128    
+  Est. Processing Time: 5.538 ms
+
+OPERATION 1: DEPTHWISE_CONV_2D (Working Mem: 0x002a6724, Params: 0x0000000c)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:2, W:2), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    151     1 x 65 x 85 x 8       S CHAR  SCRATCH_RAM   0x2abb24  (0, 0)      65 x 85     680         44200       -1      2       PER_TENSOR    0.01434 -128    
+    5       1 x 3 x 3 x 8         S CHAR  STATIC_DATA   0x280068  (0, 0)      3 x 3       24          72          -1      1       PER_TENSOR    0.01011 0       
+    6       8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x2800b0  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00014 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    150     1 x 32 x 42 x 8       S CHAR  SCRATCH_RAM   0x2a9124  (0, 0)      32 x 42     336         10752       -1      2       PER_TENSOR    0.03807 -128    
+  Est. Processing Time: 1.347 ms
+
+OPERATION 2: CONV_2D (Working Mem: 0x002b1174, Params: 0x00000018)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    150     1 x 32 x 42 x 8       S CHAR  SCRATCH_RAM   0x2a9124  (0, 0)      32 x 42     336         10752       -1      2       PER_TENSOR    0.03807 -128    
+    8       8 x 1 x 1 x 8         S CHAR  STATIC_DATA   0x2800d0  (0, 0)      1 x 1       8           8           -1      1       PER_TENSOR    0.00633 0       
+    9       8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x280110  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00024 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    149     1 x 33 x 43 x 8       S CHAR  SCRATCH_RAM   0x2b3b74  (0, 0)      32 x 42     344         11352       -1      2       PER_TENSOR    0.02195 -128    
+  Est. Processing Time: 1.732 ms
+
+OPERATION 3: DEPTHWISE_CONV_2D (Working Mem: 0x002aec04, Params: 0x00000020)
+  Parameters:
+    pad=(L:0, R:1, T:0, B:1), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    149     1 x 33 x 43 x 8       S CHAR  SCRATCH_RAM   0x2b3b74  (0, 0)      32 x 42     344         11352       -1      2       PER_TENSOR    0.02195 -128    
+    11      1 x 3 x 3 x 8         S CHAR  STATIC_DATA   0x280130  (0, 0)      3 x 3       24          72          -1      1       PER_TENSOR    0.00796 0       
+    12      8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x280178  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00017 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    148     1 x 31 x 41 x 8       S CHAR  SCRATCH_RAM   0x2b13bc  (0, 0)      31 x 41     328         10168       -1      2       PER_TENSOR    0.03543 -128    
+  Est. Processing Time: 1.278 ms
+
+OPERATION 4: CONV_2D (Working Mem: 0x0029d5fc, Params: 0x0000002c)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=OPTIMIZED_1X1_FILTER, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    148     1 x 31 x 41 x 8       S CHAR  SCRATCH_RAM   0x2b13bc  (0, 0)      31 x 41     328         10168       -1      2       PER_TENSOR    0.03543 -128    
+    153     8 x 1 x 1 x 8         S CHAR  STATIC_DATA   0x28e940  (0, 0)      1 x 1       8           8           -1      1       PER_TENSOR    0.01194 0       
+    15      8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x2801d8  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00042 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    147     1 x 31 x 41 x 8       S CHAR  SCRATCH_RAM   0x2b4014  (0, 0)      31 x 41     328         10168       -1      2       PER_TENSOR    0.02055 -128    
+  Est. Processing Time: 1.152 ms
+
+OPERATION 5: DEPTHWISE_CONV_2D (Working Mem: 0x002b0f54, Params: 0x00000038)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:2, W:2), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    147     1 x 31 x 41 x 8       S CHAR  SCRATCH_RAM   0x2b4014  (0, 0)      31 x 41     328         10168       -1      2       PER_TENSOR    0.02055 -128    
+    17      1 x 3 x 3 x 8         S CHAR  STATIC_DATA   0x2801f8  (0, 0)      3 x 3       24          72          -1      1       PER_TENSOR    0.03590 0       
+    18      8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x280240  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00074 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    146     1 x 30 x 42 x 8       S CHAR  SCRATCH_RAM   0x2b2d0c  (15, 21)    15 x 20     336         10080       16      2       PER_TENSOR    0.03528 -128    
+  Est. Processing Time: 0.301 ms
+
+OPERATION 6: DEPTHWISE_CONV_2D (Working Mem: 0x0029c98c, Params: 0x00000044)
+  Parameters:
+    pad=(L:1, R:0, T:0, B:1), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    145     1 x 122 x 162 x 1     S CHAR  SCRATCH_RAM   0x2b8a9b  (55, 1)     66 x 83     162         19764       0       1       PER_TENSOR    0.00576 -45     
+    2       1 x 3 x 3 x 8         S CHAR  STATIC_DATA   0x280000  (0, 0)      3 x 3       24          72          -1      1       PER_TENSOR    0.01600 0       
+    3       8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x280048  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00009 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    144     1 x 65 x 83 x 8       S CHAR  SCRATCH_RAM   0x2a7024  (0, 1)      65 x 82     664         43160       -1      2       PER_TENSOR    0.01434 -128    
+  Est. Processing Time: 5.342 ms
+
+OPERATION 7: DEPTHWISE_CONV_2D (Working Mem: 0x002a1e1c, Params: 0x00000050)
+  Parameters:
+    pad=(L:1, R:0, T:0, B:0), stride=(H:2, W:2), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    144     1 x 65 x 83 x 8       S CHAR  SCRATCH_RAM   0x2a7024  (0, 1)      65 x 82     664         43160       -1      2       PER_TENSOR    0.01434 -128    
+    5       1 x 3 x 3 x 8         S CHAR  STATIC_DATA   0x280068  (0, 0)      3 x 3       24          72          -1      1       PER_TENSOR    0.01011 0       
+    6       8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x2800b0  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00014 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    143     1 x 32 x 41 x 8       S CHAR  SCRATCH_RAM   0x2a471c  (0, 0)      32 x 41     328         10496       -1      2       PER_TENSOR    0.03807 -128    
+  Est. Processing Time: 1.318 ms
+
+OPERATION 8: CONV_2D (Working Mem: 0x002ac464, Params: 0x00000018)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    143     1 x 32 x 41 x 8       S CHAR  SCRATCH_RAM   0x2a471c  (0, 0)      32 x 41     328         10496       -1      2       PER_TENSOR    0.03807 -128    
+    8       8 x 1 x 1 x 8         S CHAR  STATIC_DATA   0x2800d0  (0, 0)      1 x 1       8           8           -1      1       PER_TENSOR    0.00633 0       
+    9       8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x280110  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00024 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    142     1 x 33 x 42 x 8       S CHAR  SCRATCH_RAM   0x2aed6c  (0, 1)      32 x 41     336         11088       -1      2       PER_TENSOR    0.02195 -128    
+  Est. Processing Time: 1.690 ms
+
+OPERATION 9: DEPTHWISE_CONV_2D (Working Mem: 0x002ac6a4, Params: 0x0000005c)
+  Parameters:
+    pad=(L:1, R:0, T:0, B:1), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    142     1 x 33 x 42 x 8       S CHAR  SCRATCH_RAM   0x2aed6c  (0, 1)      32 x 41     336         11088       -1      2       PER_TENSOR    0.02195 -128    
+    11      1 x 3 x 3 x 8         S CHAR  STATIC_DATA   0x280130  (0, 0)      3 x 3       24          72          -1      1       PER_TENSOR    0.00796 0       
+    12      8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x280178  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00017 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    141     1 x 31 x 40 x 8       S CHAR  SCRATCH_RAM   0x2b410c  (0, 0)      31 x 40     320         9920        -1      2       PER_TENSOR    0.03543 -128    
+  Est. Processing Time: 1.246 ms
+
+OPERATION 10: CONV_2D (Working Mem: 0x002aca3c, Params: 0x00000068)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    141     1 x 31 x 40 x 8       S CHAR  SCRATCH_RAM   0x2b410c  (0, 0)      31 x 40     320         9920        -1      2       PER_TENSOR    0.03543 -128    
+    14      8 x 1 x 1 x 8         S CHAR  STATIC_DATA   0x280198  (0, 0)      1 x 1       8           8           -1      1       PER_TENSOR    0.01194 0       
+    15      8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x2801d8  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00042 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    140     1 x 31 x 41 x 8       S CHAR  SCRATCH_RAM   0x2af104  (0, 1)      31 x 40     328         10168       -1      2       PER_TENSOR    0.02055 -128    
+  Est. Processing Time: 1.598 ms
+
+OPERATION 11: DEPTHWISE_CONV_2D (Working Mem: 0x002b5e6c, Params: 0x00000070)
+  Parameters:
+    pad=(L:1, R:0, T:0, B:0), stride=(H:2, W:2), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    140     1 x 31 x 41 x 8       S CHAR  SCRATCH_RAM   0x2af104  (0, 1)      31 x 40     328         10168       -1      2       PER_TENSOR    0.02055 -128    
+    17      1 x 3 x 3 x 8         S CHAR  STATIC_DATA   0x2801f8  (0, 0)      3 x 3       24          72          -1      1       PER_TENSOR    0.03590 0       
+    18      8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x280240  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00074 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    139     1 x 30 x 42 x 8       S CHAR  SCRATCH_RAM   0x2b2c6c  (15, 1)     15 x 20     336         10080       16      2       PER_TENSOR    0.03528 -128    
+  Est. Processing Time: 0.302 ms
+
+OPERATION 12: DEPTHWISE_CONV_2D (Working Mem: 0x0029ccac, Params: 0x0000007c)
+  Parameters:
+    pad=(L:0, R:1, T:1, B:0), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    138     1 x 122 x 162 x 1     S CHAR  SCRATCH_RAM   0x2b68b9  (1, 75)     63 x 86     162         19764       0       1       PER_TENSOR    0.00576 -45     
+    2       1 x 3 x 3 x 8         S CHAR  STATIC_DATA   0x280000  (0, 0)      3 x 3       24          72          -1      1       PER_TENSOR    0.01600 0       
+    3       8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x280048  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00009 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    137     1 x 63 x 85 x 8       S CHAR  SCRATCH_RAM   0x2a7404  (1, 0)      62 x 85     680         42840       -1      2       PER_TENSOR    0.01434 -128    
+  Est. Processing Time: 5.282 ms
+
+OPERATION 13: DEPTHWISE_CONV_2D (Working Mem: 0x002a1ffc, Params: 0x00000088)
+  Parameters:
+    pad=(L:0, R:0, T:1, B:0), stride=(H:2, W:2), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    137     1 x 63 x 85 x 8       S CHAR  SCRATCH_RAM   0x2a7404  (1, 0)      62 x 85     680         42840       -1      2       PER_TENSOR    0.01434 -128    
+    5       1 x 3 x 3 x 8         S CHAR  STATIC_DATA   0x280068  (0, 0)      3 x 3       24          72          -1      1       PER_TENSOR    0.01011 0       
+    6       8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x2800b0  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00014 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    136     1 x 31 x 42 x 8       S CHAR  SCRATCH_RAM   0x2a48ac  (0, 0)      31 x 42     336         10416       -1      2       PER_TENSOR    0.03807 -128    
+  Est. Processing Time: 1.309 ms
+
+OPERATION 14: CONV_2D (Working Mem: 0x002ac504, Params: 0x00000018)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    136     1 x 31 x 42 x 8       S CHAR  SCRATCH_RAM   0x2a48ac  (0, 0)      31 x 42     336         10416       -1      2       PER_TENSOR    0.03807 -128    
+    8       8 x 1 x 1 x 8         S CHAR  STATIC_DATA   0x2800d0  (0, 0)      1 x 1       8           8           -1      1       PER_TENSOR    0.00633 0       
+    9       8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x280110  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00024 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    135     1 x 32 x 43 x 8       S CHAR  SCRATCH_RAM   0x2aef0c  (1, 0)      31 x 42     344         11008       -1      2       PER_TENSOR    0.02195 -128    
+  Est. Processing Time: 1.678 ms
+
+OPERATION 15: DEPTHWISE_CONV_2D (Working Mem: 0x002ac744, Params: 0x00000094)
+  Parameters:
+    pad=(L:0, R:1, T:1, B:0), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    135     1 x 32 x 43 x 8       S CHAR  SCRATCH_RAM   0x2aef0c  (1, 0)      31 x 42     344         11008       -1      2       PER_TENSOR    0.02195 -128    
+    11      1 x 3 x 3 x 8         S CHAR  STATIC_DATA   0x280130  (0, 0)      3 x 3       24          72          -1      1       PER_TENSOR    0.00796 0       
+    12      8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x280178  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00017 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    134     1 x 30 x 41 x 8       S CHAR  SCRATCH_RAM   0x2b415c  (0, 0)      30 x 41     328         9840        -1      2       PER_TENSOR    0.03543 -128    
+  Est. Processing Time: 1.237 ms
+
+OPERATION 16: CONV_2D (Working Mem: 0x0029bd7c, Params: 0x0000002c)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=OPTIMIZED_1X1_FILTER, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    134     1 x 30 x 41 x 8       S CHAR  SCRATCH_RAM   0x2b415c  (0, 0)      30 x 41     328         9840        -1      2       PER_TENSOR    0.03543 -128    
+    154     8 x 1 x 1 x 8         S CHAR  STATIC_DATA   0x28e980  (0, 0)      1 x 1       8           8           -1      1       PER_TENSOR    0.01194 0       
+    15      8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x2801d8  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00042 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    133     1 x 31 x 41 x 8       S CHAR  SCRATCH_RAM   0x2af244  (1, 0)      30 x 41     328         10168       -1      2       PER_TENSOR    0.02055 -128    
+  Est. Processing Time: 1.115 ms
+
+OPERATION 17: DEPTHWISE_CONV_2D (Working Mem: 0x002b5e6c, Params: 0x000000a0)
+  Parameters:
+    pad=(L:0, R:0, T:1, B:0), stride=(H:2, W:2), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    133     1 x 31 x 41 x 8       S CHAR  SCRATCH_RAM   0x2af244  (1, 0)      30 x 41     328         10168       -1      2       PER_TENSOR    0.02055 -128    
+    17      1 x 3 x 3 x 8         S CHAR  STATIC_DATA   0x2801f8  (0, 0)      3 x 3       24          72          -1      1       PER_TENSOR    0.03590 0       
+    18      8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x280240  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00074 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    132     1 x 30 x 42 x 8       S CHAR  SCRATCH_RAM   0x2b195c  (0, 21)     15 x 20     336         10080       16      2       PER_TENSOR    0.03528 -128    
+  Est. Processing Time: 0.303 ms
+
+OPERATION 18: DEPTHWISE_CONV_2D (Working Mem: 0x0029d66c, Params: 0x000000ac)
+  Parameters:
+    pad=(L:1, R:0, T:1, B:0), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    131     1 x 122 x 162 x 1     S CHAR  SCRATCH_RAM   0x2b686f  (1, 1)      63 x 83     162         19764       0       1       PER_TENSOR    0.00576 -45     
+    2       1 x 3 x 3 x 8         S CHAR  STATIC_DATA   0x280000  (0, 0)      3 x 3       24          72          -1      1       PER_TENSOR    0.01600 0       
+    3       8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x280048  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00009 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    130     1 x 63 x 83 x 8       S CHAR  SCRATCH_RAM   0x2a77ec  (1, 1)      62 x 82     664         41832       -1      2       PER_TENSOR    0.01434 -128    
+  Est. Processing Time: 5.096 ms
+
+OPERATION 19: DEPTHWISE_CONV_2D (Working Mem: 0x002b6590, Params: 0x000000b8)
+  Parameters:
+    pad=(L:1, R:0, T:1, B:0), stride=(H:2, W:2), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    130     1 x 63 x 83 x 8       S CHAR  SCRATCH_RAM   0x2a77ec  (1, 1)      62 x 82     664         41832       -1      2       PER_TENSOR    0.01434 -128    
+    5       1 x 3 x 3 x 8         S CHAR  STATIC_DATA   0x280068  (0, 0)      3 x 3       24          72          -1      1       PER_TENSOR    0.01011 0       
+    6       8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x2800b0  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00014 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    129     1 x 31 x 41 x 8       S CHAR  SCRATCH_RAM   0x2b8d48  (0, 0)      31 x 41     328         10168       -1      2       PER_TENSOR    0.03807 -128    
+  Est. Processing Time: 1.281 ms
+
+OPERATION 20: CONV_2D (Working Mem: 0x002af0fc, Params: 0x00000018)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    129     1 x 31 x 41 x 8       S CHAR  SCRATCH_RAM   0x2b8d48  (0, 0)      31 x 41     328         10168       -1      2       PER_TENSOR    0.03807 -128    
+    8       8 x 1 x 1 x 8         S CHAR  STATIC_DATA   0x2800d0  (0, 0)      1 x 1       8           8           -1      1       PER_TENSOR    0.00633 0       
+    9       8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x280110  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00024 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    128     1 x 32 x 42 x 8       S CHAR  SCRATCH_RAM   0x2b64a0  (1, 1)      31 x 41     336         10752       -1      2       PER_TENSOR    0.02195 -128    
+  Est. Processing Time: 1.638 ms
+
+OPERATION 21: DEPTHWISE_CONV_2D (Working Mem: 0x002af334, Params: 0x000000c4)
+  Parameters:
+    pad=(L:1, R:0, T:1, B:0), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    128     1 x 32 x 42 x 8       S CHAR  SCRATCH_RAM   0x2b64a0  (1, 1)      31 x 41     336         10752       -1      2       PER_TENSOR    0.02195 -128    
+    11      1 x 3 x 3 x 8         S CHAR  STATIC_DATA   0x280130  (0, 0)      3 x 3       24          72          -1      1       PER_TENSOR    0.00796 0       
+    12      8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x280178  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00017 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    127     1 x 30 x 40 x 8       S CHAR  SCRATCH_RAM   0x2b8f80  (0, 0)      30 x 40     320         9600        -1      2       PER_TENSOR    0.03543 -128    
+  Est. Processing Time: 1.206 ms
+
+OPERATION 22: CONV_2D (Working Mem: 0x002b4248, Params: 0x00000068)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    127     1 x 30 x 40 x 8       S CHAR  SCRATCH_RAM   0x2b8f80  (0, 0)      30 x 40     320         9600        -1      2       PER_TENSOR    0.03543 -128    
+    14      8 x 1 x 1 x 8         S CHAR  STATIC_DATA   0x280198  (0, 0)      1 x 1       8           8           -1      1       PER_TENSOR    0.01194 0       
+    15      8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x2801d8  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00042 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    126     1 x 31 x 41 x 8       S CHAR  SCRATCH_RAM   0x2b6918  (1, 1)      30 x 40     328         10168       -1      2       PER_TENSOR    0.02055 -128    
+  Est. Processing Time: 1.546 ms
+
+OPERATION 23: DEPTHWISE_CONV_2D (Working Mem: 0x002baba0, Params: 0x000000d0)
+  Parameters:
+    pad=(L:1, R:0, T:1, B:0), stride=(H:2, W:2), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    126     1 x 31 x 41 x 8       S CHAR  SCRATCH_RAM   0x2b6918  (1, 1)      30 x 40     328         10168       -1      2       PER_TENSOR    0.02055 -128    
+    17      1 x 3 x 3 x 8         S CHAR  STATIC_DATA   0x2801f8  (0, 0)      3 x 3       24          72          -1      1       PER_TENSOR    0.03590 0       
+    18      8 x 1 x 1 x 1         S LONG  STATIC_DATA   0x280240  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00074 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    125     1 x 30 x 42 x 8       S CHAR  SCRATCH_RAM   0x2b18bc  (0, 1)      15 x 20     336         10080       16      2       PER_TENSOR    0.03528 -128    
+  Est. Processing Time: 0.304 ms
+
+OPERATION 24: CONV_2D (Working Mem: 0x002af334, Params: 0x000000dc)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    16      1 x 30 x 42 x 8       S CHAR  SCRATCH_RAM   0x2b18bc  (0, 1)      30 x 40     336         10080       -1      5       PER_TENSOR    0.03528 -128    
+    20      16 x 1 x 1 x 8        S CHAR  STATIC_DATA   0x280260  (0, 0)      1 x 1       8           8           -1      1       PER_TENSOR    0.01304 0       
+    21      16 x 1 x 1 x 1        S LONG  STATIC_DATA   0x2802e0  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00046 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    19      1 x 32 x 42 x 16      S CHAR  SCRATCH_RAM   0x2b63b0  (1, 1)      30 x 40     672         21504       -1      2       PER_TENSOR    0.01907 -128    
+  Est. Processing Time: 3.092 ms
+
+OPERATION 25: DEPTHWISE_CONV_2D (Working Mem: 0x002aeea0, Params: 0x000000e4)
+  Parameters:
+    pad=(L:1, R:1, T:1, B:1), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    19      1 x 32 x 42 x 16      S CHAR  SCRATCH_RAM   0x2b63b0  (1, 1)      30 x 40     672         21504       -1      2       PER_TENSOR    0.01907 -128    
+    23      1 x 3 x 3 x 16        S CHAR  STATIC_DATA   0x280320  (0, 0)      3 x 3       48          144         -1      1       PER_TENSOR    0.01251 0       
+    24      16 x 1 x 1 x 1        S LONG  STATIC_DATA   0x2803b0  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00024 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    22      1 x 30 x 41 x 16      S CHAR  SCRATCH_RAM   0x2b1430  (0, 1)      30 x 40     656         19680       -1      2       PER_TENSOR    0.02893 -128    
+  Est. Processing Time: 2.422 ms
+
+OPERATION 26: CONV_2D (Working Mem: 0x002aeea0, Params: 0x000000f0)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    22      1 x 30 x 41 x 16      S CHAR  SCRATCH_RAM   0x2b1430  (0, 1)      30 x 40     656         19680       -1      2       PER_TENSOR    0.02893 -128    
+    26      16 x 1 x 1 x 16       S CHAR  STATIC_DATA   0x2803f0  (0, 0)      1 x 1       16          16          -1      1       PER_TENSOR    0.00815 0       
+    27      16 x 1 x 1 x 1        S LONG  STATIC_DATA   0x2804f0  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00024 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    25      1 x 31 x 41 x 16      S CHAR  SCRATCH_RAM   0x2b6830  (1, 1)      30 x 40     656         20336       -1      2       PER_TENSOR    0.02257 -128    
+  Est. Processing Time: 5.841 ms
+
+OPERATION 27: DEPTHWISE_CONV_2D (Working Mem: 0x002b4790, Params: 0x000000f8)
+  Parameters:
+    pad=(L:1, R:0, T:1, B:0), stride=(H:2, W:2), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    25      1 x 31 x 41 x 16      S CHAR  SCRATCH_RAM   0x2b6830  (1, 1)      30 x 40     656         20336       -1      2       PER_TENSOR    0.02257 -128    
+    29      1 x 3 x 3 x 16        S CHAR  STATIC_DATA   0x280530  (0, 0)      3 x 3       48          144         -1      1       PER_TENSOR    0.00806 0       
+    30      16 x 1 x 1 x 1        S LONG  STATIC_DATA   0x2805c0  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00018 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    28      1 x 15 x 22 x 16      S CHAR  SCRATCH_RAM   0x2b5100  (0, 1)      15 x 20     352         5280        -1      2       PER_TENSOR    0.02513 -128    
+  Est. Processing Time: 0.608 ms
+
+OPERATION 28: CONV_2D (Working Mem: 0x002a06f0, Params: 0x00000104)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=OPTIMIZED_1X1_FILTER, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    28      1 x 15 x 22 x 16      S CHAR  SCRATCH_RAM   0x2b5100  (0, 1)      15 x 20     352         5280        -1      2       PER_TENSOR    0.02513 -128    
+    32      16 x 1 x 1 x 32       S CHAR  STATIC_DATA   0x280600  (0, 0)      1 x 1       32          32          -1      1       PER_TENSOR    0.00730 0       
+    33      32 x 1 x 1 x 1        S LONG  STATIC_DATA   0x280800  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00018 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    31      1 x 17 x 22 x 32      S CHAR  SCRATCH_RAM   0x2b8920  (1, 1)      15 x 20     704         11968       -1      2       PER_TENSOR    0.02177 -128    
+  Est. Processing Time: 2.110 ms
+
+OPERATION 29: DEPTHWISE_CONV_2D (Working Mem: 0x002b5580, Params: 0x00000110)
+  Parameters:
+    pad=(L:1, R:1, T:1, B:1), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    31      1 x 17 x 22 x 32      S CHAR  SCRATCH_RAM   0x2b8920  (1, 1)      15 x 20     704         11968       -1      2       PER_TENSOR    0.02177 -128    
+    35      1 x 3 x 3 x 32        S CHAR  STATIC_DATA   0x280880  (0, 0)      3 x 3       96          288         -1      1       PER_TENSOR    0.02469 0       
+    36      32 x 1 x 1 x 1        S LONG  STATIC_DATA   0x2809a0  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00054 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    34      1 x 15 x 21 x 32      S CHAR  SCRATCH_RAM   0x2b5f00  (0, 1)      15 x 20     672         10080       -1      2       PER_TENSOR    0.03761 -128    
+  Est. Processing Time: 1.229 ms
+
+OPERATION 30: CONV_2D (Working Mem: 0x002a23e0, Params: 0x0000011c)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=OPTIMIZED_1X1_FILTER, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    34      1 x 15 x 21 x 32      S CHAR  SCRATCH_RAM   0x2b5f00  (0, 1)      15 x 20     672         10080       -1      2       PER_TENSOR    0.03761 -128    
+    38      32 x 1 x 1 x 32       S CHAR  STATIC_DATA   0x280a20  (0, 0)      1 x 1       32          32          -1      1       PER_TENSOR    0.00662 0       
+    39      32 x 1 x 1 x 1        S LONG  STATIC_DATA   0x280e20  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00025 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    37      1 x 17 x 21 x 32      S CHAR  SCRATCH_RAM   0x2b8b20  (1, 1)      15 x 20     672         11424       -1      2       PER_TENSOR    0.02644 -128    
+  Est. Processing Time: 4.029 ms
+
+OPERATION 31: DEPTHWISE_CONV_2D (Working Mem: 0x002b79e0, Params: 0x00000128)
+  Parameters:
+    pad=(L:1, R:0, T:1, B:1), stride=(H:2, W:2), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    37      1 x 17 x 21 x 32      S CHAR  SCRATCH_RAM   0x2b8b20  (1, 1)      15 x 20     672         11424       -1      2       PER_TENSOR    0.02644 -128    
+    41      1 x 3 x 3 x 32        S CHAR  STATIC_DATA   0x280ea0  (0, 0)      3 x 3       96          288         -1      1       PER_TENSOR    0.01026 0       
+    42      32 x 1 x 1 x 1        S LONG  STATIC_DATA   0x280fc0  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00027 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    40      1 x 8 x 12 x 32       S CHAR  SCRATCH_RAM   0x2b7c80  (0, 1)      8 x 10      384         3072        -1      2       PER_TENSOR    0.03557 -128    
+  Est. Processing Time: 0.332 ms
+
+OPERATION 32: CONV_2D (Working Mem: 0x002abc60, Params: 0x00000134)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=OPTIMIZED_1X1_FILTER, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    40      1 x 8 x 12 x 32       S CHAR  SCRATCH_RAM   0x2b7c80  (0, 1)      8 x 10      384         3072        -1      2       PER_TENSOR    0.03557 -128    
+    44      32 x 1 x 1 x 64       S CHAR  STATIC_DATA   0x281040  (0, 0)      1 x 1       64          64          -1      1       PER_TENSOR    0.00537 0       
+    45      64 x 1 x 1 x 1        S LONG  STATIC_DATA   0x281840  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00019 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    43      1 x 10 x 12 x 64      S CHAR  SCRATCH_RAM   0x2b9a40  (1, 1)      8 x 10      768         7680        -1      2       PER_TENSOR    0.02845 -128    
+  Est. Processing Time: 2.401 ms
+
+OPERATION 33: DEPTHWISE_CONV_2D (Working Mem: 0x002b7c80, Params: 0x00000140)
+  Parameters:
+    pad=(L:1, R:1, T:1, B:1), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    43      1 x 10 x 12 x 64      S CHAR  SCRATCH_RAM   0x2b9a40  (1, 1)      8 x 10      768         7680        -1      2       PER_TENSOR    0.02845 -128    
+    47      1 x 3 x 3 x 64        S CHAR  STATIC_DATA   0x281940  (0, 0)      3 x 3       192         576         -1      1       PER_TENSOR    0.01805 0       
+    48      64 x 1 x 1 x 1        S LONG  STATIC_DATA   0x281b80  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00051 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    46      1 x 8 x 12 x 64       S CHAR  SCRATCH_RAM   0x2b7f40  (0, 1)      8 x 10      768         6144        -1      2       PER_TENSOR    0.03347 -128    
+  Est. Processing Time: 0.706 ms
+
+OPERATION 34: CONV_2D (Working Mem: 0x002abf00, Params: 0x0000014c)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=OPTIMIZED_1X1_FILTER, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    46      1 x 8 x 12 x 64       S CHAR  SCRATCH_RAM   0x2b7f40  (0, 1)      8 x 10      768         6144        -1      2       PER_TENSOR    0.03347 -128    
+    50      64 x 1 x 1 x 64       S CHAR  STATIC_DATA   0x281c80  (0, 0)      1 x 1       64          64          -1      1       PER_TENSOR    0.00528 0       
+    51      64 x 1 x 1 x 1        S LONG  STATIC_DATA   0x282c80  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00018 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    49      1 x 10 x 12 x 64      S CHAR  SCRATCH_RAM   0x2b9a40  (1, 1)      8 x 10      768         7680        -1      4       PER_TENSOR    0.02538 -128    
+  Est. Processing Time: 4.801 ms
+
+OPERATION 35: DEPTHWISE_CONV_2D (Working Mem: 0x002b8080, Params: 0x00000158)
+  Parameters:
+    pad=(L:1, R:1, T:1, B:1), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    49      1 x 10 x 12 x 64      S CHAR  SCRATCH_RAM   0x2b9a40  (1, 1)      8 x 10      768         7680        -1      4       PER_TENSOR    0.02538 -128    
+    53      1 x 3 x 3 x 64        S CHAR  STATIC_DATA   0x282d80  (0, 0)      3 x 3       192         576         -1      1       PER_TENSOR    0.01185 0       
+    54      64 x 1 x 1 x 1        S LONG  STATIC_DATA   0x282fc0  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00030 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    52      1 x 8 x 10 x 64       S CHAR  SCRATCH_RAM   0x2b8300  (0, 0)      8 x 10      640         5120        -1      2       PER_TENSOR    0.03309 -128    
+  Est. Processing Time: 0.706 ms
+
+OPERATION 36: CONV_2D (Working Mem: 0x002b3f80, Params: 0x00000164)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=OPTIMIZED_1X1_FILTER, clip_max=128
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    52      1 x 8 x 10 x 64       S CHAR  SCRATCH_RAM   0x2b8300  (0, 0)      8 x 10      640         5120        -1      2       PER_TENSOR    0.03309 -128    
+    56      64 x 1 x 1 x 24       S CHAR  STATIC_DATA   0x2830c0  (0, 0)      1 x 1       24          24          -1      1       PER_TENSOR    0.00221 0       
+    57      24 x 1 x 1 x 1        S LONG  STATIC_DATA   0x2836c0  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00007 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    55      1 x 8 x 10 x 24       S CHAR  SCRATCH_RAM   0x2b7b80  (0, 0)      8 x 10      240         1920        -1      4       PER_TENSOR    0.04707 -15     
+  Est. Processing Time: 1.527 ms
+
+OPERATION 37: RESHAPE (Working Mem: 0x00280000, Params: 0x00010000)
+  Parameters:
+    unpadded=True, transpose=False
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    55      1 x 8 x 10 x 24       S CHAR  SCRATCH_RAM   0x2b7b80  (0, 0)      8 x 10      240         1920        -1      4       PER_TENSOR    0.04707 -15     
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    58      1 x 640 x 3 x 1       S CHAR  SCRATCH_RAM   0x2b7b80  (0, 0)      640 x 3     3           1920        55      2       PER_TENSOR    0.04707 -15     
+  Est. Processing Time: 0.000 ms
+
+OPERATION 38: DEPTHWISE_CONV_2D (Working Mem: 0x002b7900, Params: 0x00000170)
+  Parameters:
+    pad=(L:1, R:1, T:1, B:1), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    49      1 x 10 x 12 x 64      S CHAR  SCRATCH_RAM   0x2b9a40  (1, 1)      8 x 10      768         7680        -1      4       PER_TENSOR    0.02538 -128    
+    60      1 x 3 x 3 x 64        S CHAR  STATIC_DATA   0x283720  (0, 0)      3 x 3       192         576         -1      1       PER_TENSOR    0.01613 0       
+    61      64 x 1 x 1 x 1        S LONG  STATIC_DATA   0x283960  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00041 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    59      1 x 8 x 10 x 64       S CHAR  SCRATCH_RAM   0x2b8300  (0, 0)      8 x 10      640         5120        -1      2       PER_TENSOR    0.02911 -128    
+  Est. Processing Time: 0.706 ms
+
+OPERATION 39: CONV_2D (Working Mem: 0x002b2180, Params: 0x0000017c)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=OPTIMIZED_1X1_FILTER, clip_max=128
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    59      1 x 8 x 10 x 64       S CHAR  SCRATCH_RAM   0x2b8300  (0, 0)      8 x 10      640         5120        -1      2       PER_TENSOR    0.02911 -128    
+    63      64 x 1 x 1 x 32       S CHAR  STATIC_DATA   0x283a60  (0, 0)      1 x 1       32          32          -1      1       PER_TENSOR    0.00331 0       
+    64      32 x 1 x 1 x 1        S LONG  STATIC_DATA   0x284260  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00010 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    62      1 x 8 x 10 x 32       S CHAR  SCRATCH_RAM   0x2b7180  (0, 0)      8 x 10      320         2560        -1      4       PER_TENSOR    0.04387 3       
+  Est. Processing Time: 2.016 ms
+
+OPERATION 40: RESHAPE (Working Mem: 0x00280000, Params: 0x00010000)
+  Parameters:
+    unpadded=True, transpose=False
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    62      1 x 8 x 10 x 32       S CHAR  SCRATCH_RAM   0x2b7180  (0, 0)      8 x 10      320         2560        -1      4       PER_TENSOR    0.04387 3       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    65      1 x 640 x 4 x 1       S CHAR  SCRATCH_RAM   0x2b7180  (0, 0)      640 x 4     4           2560        62      2       PER_TENSOR    0.04387 3       
+  Est. Processing Time: 0.000 ms
+
+OPERATION 41: DEPTHWISE_CONV_2D (Working Mem: 0x002b8f60, Params: 0x00000188)
+  Parameters:
+    pad=(L:1, R:0, T:1, B:0), stride=(H:2, W:2), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    49      1 x 10 x 12 x 64      S CHAR  SCRATCH_RAM   0x2b9a40  (1, 1)      8 x 10      768         7680        -1      4       PER_TENSOR    0.02538 -128    
+    67      1 x 3 x 3 x 64        S CHAR  STATIC_DATA   0x2842e0  (0, 0)      3 x 3       192         576         -1      1       PER_TENSOR    0.01781 0       
+    68      64 x 1 x 1 x 1        S LONG  STATIC_DATA   0x284520  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00045 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    66      1 x 4 x 7 x 64        S CHAR  SCRATCH_RAM   0x2b9040  (0, 1)      4 x 5       448         1792        -1      2       PER_TENSOR    0.02776 -128    
+  Est. Processing Time: 0.168 ms
+
+OPERATION 42: CONV_2D (Working Mem: 0x002b3980, Params: 0x00000194)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=OPTIMIZED_1X1_FILTER, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    66      1 x 4 x 7 x 64        S CHAR  SCRATCH_RAM   0x2b9040  (0, 1)      4 x 5       448         1792        -1      2       PER_TENSOR    0.02776 -128    
+    70      64 x 1 x 1 x 64       S CHAR  STATIC_DATA   0x284620  (0, 0)      1 x 1       64          64          -1      1       PER_TENSOR    0.00405 0       
+    71      64 x 1 x 1 x 1        S LONG  STATIC_DATA   0x285620  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00011 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    69      1 x 6 x 7 x 64        S CHAR  SCRATCH_RAM   0x2bac80  (1, 1)      4 x 5       448         2688        -1      2       PER_TENSOR    0.02418 -128    
+  Est. Processing Time: 1.400 ms
+
+OPERATION 43: DEPTHWISE_CONV_2D (Working Mem: 0x002ba2e0, Params: 0x000001a0)
+  Parameters:
+    pad=(L:1, R:1, T:1, B:1), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    69      1 x 6 x 7 x 64        S CHAR  SCRATCH_RAM   0x2bac80  (1, 1)      4 x 5       448         2688        -1      2       PER_TENSOR    0.02418 -128    
+    73      1 x 3 x 3 x 64        S CHAR  STATIC_DATA   0x285720  (0, 0)      3 x 3       192         576         -1      1       PER_TENSOR    0.01342 0       
+    74      64 x 1 x 1 x 1        S LONG  STATIC_DATA   0x285960  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00032 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    72      1 x 4 x 7 x 64        S CHAR  SCRATCH_RAM   0x2ba3c0  (0, 1)      4 x 5       448         1792        -1      2       PER_TENSOR    0.02694 -128    
+  Est. Processing Time: 0.218 ms
+
+OPERATION 44: CONV_2D (Working Mem: 0x002b3980, Params: 0x000001ac)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=OPTIMIZED_1X1_FILTER, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    72      1 x 4 x 7 x 64        S CHAR  SCRATCH_RAM   0x2ba3c0  (0, 1)      4 x 5       448         1792        -1      2       PER_TENSOR    0.02694 -128    
+    76      64 x 1 x 1 x 64       S CHAR  STATIC_DATA   0x285a60  (0, 0)      1 x 1       64          64          -1      1       PER_TENSOR    0.00413 0       
+    77      64 x 1 x 1 x 1        S LONG  STATIC_DATA   0x286a60  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00011 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    75      1 x 6 x 7 x 64        S CHAR  SCRATCH_RAM   0x2bac80  (1, 1)      4 x 5       448         2688        -1      4       PER_TENSOR    0.02253 -128    
+  Est. Processing Time: 1.400 ms
+
+OPERATION 45: DEPTHWISE_CONV_2D (Working Mem: 0x002ba4e0, Params: 0x000001b8)
+  Parameters:
+    pad=(L:1, R:1, T:1, B:1), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    75      1 x 6 x 7 x 64        S CHAR  SCRATCH_RAM   0x2bac80  (1, 1)      4 x 5       448         2688        -1      4       PER_TENSOR    0.02253 -128    
+    79      1 x 3 x 3 x 64        S CHAR  STATIC_DATA   0x286b60  (0, 0)      3 x 3       192         576         -1      1       PER_TENSOR    0.01399 0       
+    80      64 x 1 x 1 x 1        S LONG  STATIC_DATA   0x286da0  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00032 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    78      1 x 4 x 5 x 64        S CHAR  SCRATCH_RAM   0x2ba580  (0, 0)      4 x 5       320         1280        -1      2       PER_TENSOR    0.02965 -128    
+  Est. Processing Time: 0.218 ms
+
+OPERATION 46: CONV_2D (Working Mem: 0x002b94a0, Params: 0x000001c4)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=OPTIMIZED_1X1_FILTER, clip_max=128
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    78      1 x 4 x 5 x 64        S CHAR  SCRATCH_RAM   0x2ba580  (0, 0)      4 x 5       320         1280        -1      2       PER_TENSOR    0.02965 -128    
+    82      64 x 1 x 1 x 24       S CHAR  STATIC_DATA   0x286ea0  (0, 0)      1 x 1       24          24          -1      1       PER_TENSOR    0.00276 0       
+    83      24 x 1 x 1 x 1        S LONG  STATIC_DATA   0x2874a0  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00008 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    81      1 x 4 x 5 x 24        S CHAR  SCRATCH_RAM   0x2ba3a0  (0, 0)      4 x 5       120         480         -1      4       PER_TENSOR    0.04028 5       
+  Est. Processing Time: 0.389 ms
+
+OPERATION 47: RESHAPE (Working Mem: 0x00280000, Params: 0x00010000)
+  Parameters:
+    unpadded=True, transpose=False
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    81      1 x 4 x 5 x 24        S CHAR  SCRATCH_RAM   0x2ba3a0  (0, 0)      4 x 5       120         480         -1      4       PER_TENSOR    0.04028 5       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    84      1 x 160 x 3 x 1       S CHAR  SCRATCH_RAM   0x2ba3a0  (0, 0)      160 x 3     3           480         81      2       PER_TENSOR    0.04028 5       
+  Est. Processing Time: 0.000 ms
+
+OPERATION 48: DEPTHWISE_CONV_2D (Working Mem: 0x002ba300, Params: 0x000001d0)
+  Parameters:
+    pad=(L:1, R:1, T:1, B:1), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    75      1 x 6 x 7 x 64        S CHAR  SCRATCH_RAM   0x2bac80  (1, 1)      4 x 5       448         2688        -1      4       PER_TENSOR    0.02253 -128    
+    86      1 x 3 x 3 x 64        S CHAR  STATIC_DATA   0x287500  (0, 0)      3 x 3       192         576         -1      1       PER_TENSOR    0.01423 0       
+    87      64 x 1 x 1 x 1        S LONG  STATIC_DATA   0x287740  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00032 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    85      1 x 4 x 5 x 64        S CHAR  SCRATCH_RAM   0x2ba580  (0, 0)      4 x 5       320         1280        -1      2       PER_TENSOR    0.02632 -128    
+  Est. Processing Time: 0.218 ms
+
+OPERATION 49: CONV_2D (Working Mem: 0x002b8d20, Params: 0x000001dc)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=OPTIMIZED_1X1_FILTER, clip_max=128
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    85      1 x 4 x 5 x 64        S CHAR  SCRATCH_RAM   0x2ba580  (0, 0)      4 x 5       320         1280        -1      2       PER_TENSOR    0.02632 -128    
+    89      64 x 1 x 1 x 32       S CHAR  STATIC_DATA   0x287840  (0, 0)      1 x 1       32          32          -1      1       PER_TENSOR    0.00475 0       
+    90      32 x 1 x 1 x 1        S LONG  STATIC_DATA   0x288040  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00013 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    88      1 x 4 x 5 x 32        S CHAR  SCRATCH_RAM   0x2ba120  (0, 0)      4 x 5       160         640         -1      4       PER_TENSOR    0.05106 2       
+  Est. Processing Time: 0.512 ms
+
+OPERATION 50: RESHAPE (Working Mem: 0x00280000, Params: 0x00010000)
+  Parameters:
+    unpadded=True, transpose=False
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    88      1 x 4 x 5 x 32        S CHAR  SCRATCH_RAM   0x2ba120  (0, 0)      4 x 5       160         640         -1      4       PER_TENSOR    0.05106 2       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    91      1 x 160 x 4 x 1       S CHAR  SCRATCH_RAM   0x2ba120  (0, 0)      160 x 4     4           640         88      2       PER_TENSOR    0.05106 2       
+  Est. Processing Time: 0.000 ms
+
+OPERATION 51: DEPTHWISE_CONV_2D (Working Mem: 0x002ba7d0, Params: 0x000001e8)
+  Parameters:
+    pad=(L:1, R:1, T:1, B:0), stride=(H:2, W:2), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    75      1 x 6 x 7 x 64        S CHAR  SCRATCH_RAM   0x2bac80  (1, 1)      4 x 5       448         2688        -1      4       PER_TENSOR    0.02253 -128    
+    93      1 x 3 x 3 x 64        S CHAR  STATIC_DATA   0x2880c0  (0, 0)      3 x 3       192         576         -1      1       PER_TENSOR    0.01371 0       
+    94      64 x 1 x 1 x 1        S LONG  STATIC_DATA   0x288300  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00031 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    92      1 x 2 x 5 x 64        S CHAR  SCRATCH_RAM   0x2ba840  (0, 1)      2 x 3       320         640         -1      2       PER_TENSOR    0.02622 -128    
+  Est. Processing Time: 0.103 ms
+
+OPERATION 52: CONV_2D (Working Mem: 0x002b8d20, Params: 0x000001f4)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=OPTIMIZED_1X1_FILTER, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    92      1 x 2 x 5 x 64        S CHAR  SCRATCH_RAM   0x2ba840  (0, 1)      2 x 3       320         640         -1      2       PER_TENSOR    0.02622 -128    
+    96      64 x 1 x 1 x 64       S CHAR  STATIC_DATA   0x288400  (0, 0)      1 x 1       64          64          -1      1       PER_TENSOR    0.00384 0       
+    97      64 x 1 x 1 x 1        S LONG  STATIC_DATA   0x289400  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00010 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    95      1 x 4 x 5 x 64        S CHAR  SCRATCH_RAM   0x2bb180  (1, 1)      2 x 3       320         1280        -1      2       PER_TENSOR    0.02018 -128    
+  Est. Processing Time: 0.504 ms
+
+OPERATION 53: DEPTHWISE_CONV_2D (Working Mem: 0x002bae50, Params: 0x00000200)
+  Parameters:
+    pad=(L:1, R:1, T:1, B:1), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    95      1 x 4 x 5 x 64        S CHAR  SCRATCH_RAM   0x2bb180  (1, 1)      2 x 3       320         1280        -1      2       PER_TENSOR    0.02018 -128    
+    99      1 x 3 x 3 x 64        S CHAR  STATIC_DATA   0x289500  (0, 0)      3 x 3       192         576         -1      1       PER_TENSOR    0.01434 0       
+    100     64 x 1 x 1 x 1        S LONG  STATIC_DATA   0x289740  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00029 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    98      1 x 2 x 3 x 64        S CHAR  SCRATCH_RAM   0x2bae80  (0, 0)      2 x 3       192         384         -1      2       PER_TENSOR    0.02694 -128    
+  Est. Processing Time: 0.103 ms
+
+OPERATION 54: CONV_2D (Working Mem: 0x002b9520, Params: 0x0000020c)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=OPTIMIZED_1X1_FILTER, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    98      1 x 2 x 3 x 64        S CHAR  SCRATCH_RAM   0x2bae80  (0, 0)      2 x 3       192         384         -1      2       PER_TENSOR    0.02694 -128    
+    102     64 x 1 x 1 x 64       S CHAR  STATIC_DATA   0x289840  (0, 0)      1 x 1       64          64          -1      1       PER_TENSOR    0.00506 0       
+    103     64 x 1 x 1 x 1        S LONG  STATIC_DATA   0x28a840  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00014 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    101     1 x 2 x 3 x 64        S CHAR  SCRATCH_RAM   0x2bb380  (0, 0)      2 x 3       192         384         -1      2       PER_TENSOR    0.02050 -128    
+  Est. Processing Time: 0.302 ms
+
+OPERATION 55: DEPTHWISE_CONV_2D (Working Mem: 0x002bb338, Params: 0x00000218)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=DEFAULT, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    101     1 x 2 x 3 x 64        S CHAR  SCRATCH_RAM   0x2bb380  (0, 0)      2 x 3       192         384         -1      2       PER_TENSOR    0.02050 -128    
+    105     1 x 2 x 3 x 64        S CHAR  STATIC_DATA   0x28a940  (0, 0)      2 x 3       192         384         -1      1       PER_TENSOR    0.01215 0       
+    106     64 x 1 x 1 x 1        S LONG  STATIC_DATA   0x28aac0  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00025 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    104     1 x 1 x 1 x 64        S CHAR  SCRATCH_RAM   0x2bb340  (0, 0)      1 x 1       64          64          -1      3       PER_TENSOR    0.01966 -128    
+  Est. Processing Time: 0.006 ms
+
+OPERATION 56: CONV_2D (Working Mem: 0x002bb140, Params: 0x00000224)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=OPTIMIZED_1X1_FILTER, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    104     1 x 1 x 1 x 64        S CHAR  SCRATCH_RAM   0x2bb340  (0, 0)      1 x 1       64          64          -1      3       PER_TENSOR    0.01966 -128    
+    108     64 x 1 x 1 x 64       S CHAR  STATIC_DATA   0x28abc0  (0, 0)      1 x 1       64          64          -1      1       PER_TENSOR    0.00378 0       
+    109     64 x 1 x 1 x 1        S LONG  STATIC_DATA   0x28bbc0  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00007 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    107     1 x 1 x 1 x 64        S CHAR  SCRATCH_RAM   0x2bb4c0  (0, 0)      1 x 1       64          64          -1      2       PER_TENSOR    0.01883 -128    
+  Est. Processing Time: 0.050 ms
+
+OPERATION 57: CONV_2D (Working Mem: 0x002bb3e8, Params: 0x00000230)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=OPTIMIZED_1X1_FILTER, clip_max=128
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    107     1 x 1 x 1 x 64        S CHAR  SCRATCH_RAM   0x2bb4c0  (0, 0)      1 x 1       64          64          -1      2       PER_TENSOR    0.01883 -128    
+    111     64 x 1 x 1 x 24       S CHAR  STATIC_DATA   0x28bcc0  (0, 0)      1 x 1       24          24          -1      1       PER_TENSOR    0.00281 0       
+    112     24 x 1 x 1 x 1        S LONG  STATIC_DATA   0x28c2c0  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00005 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    110     1 x 1 x 1 x 24        S CHAR  SCRATCH_RAM   0x2bb4a8  (0, 0)      1 x 1       24          24          -1      4       PER_TENSOR    0.04113 9       
+  Est. Processing Time: 0.019 ms
+
+OPERATION 58: RESHAPE (Working Mem: 0x00280000, Params: 0x00010000)
+  Parameters:
+    unpadded=True, transpose=False
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    110     1 x 1 x 1 x 24        S CHAR  SCRATCH_RAM   0x2bb4a8  (0, 0)      1 x 1       24          24          -1      4       PER_TENSOR    0.04113 9       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    113     1 x 8 x 3 x 1         S CHAR  SCRATCH_RAM   0x2bb4a8  (0, 0)      8 x 3       3           24          110     2       PER_TENSOR    0.04113 9       
+  Est. Processing Time: 0.000 ms
+
+OPERATION 59: CONV_2D (Working Mem: 0x002bb140, Params: 0x0000023c)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=OPTIMIZED_1X1_FILTER, clip_max=127
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    104     1 x 1 x 1 x 64        S CHAR  SCRATCH_RAM   0x2bb340  (0, 0)      1 x 1       64          64          -1      3       PER_TENSOR    0.01966 -128    
+    115     64 x 1 x 1 x 64       S CHAR  STATIC_DATA   0x28c320  (0, 0)      1 x 1       64          64          -1      1       PER_TENSOR    0.00368 0       
+    116     64 x 1 x 1 x 1        S LONG  STATIC_DATA   0x28d320  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00007 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    114     1 x 1 x 1 x 64        S CHAR  SCRATCH_RAM   0x2bb4c0  (0, 0)      1 x 1       64          64          -1      2       PER_TENSOR    0.01760 -128    
+  Est. Processing Time: 0.050 ms
+
+OPERATION 60: CONV_2D (Working Mem: 0x002bb388, Params: 0x00000248)
+  Parameters:
+    pad=(L:0, R:0, T:0, B:0), stride=(H:1, W:1), mode=OPTIMIZED_1X1_FILTER, clip_max=128
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    114     1 x 1 x 1 x 64        S CHAR  SCRATCH_RAM   0x2bb4c0  (0, 0)      1 x 1       64          64          -1      2       PER_TENSOR    0.01760 -128    
+    118     64 x 1 x 1 x 32       S CHAR  STATIC_DATA   0x28d420  (0, 0)      1 x 1       32          32          -1      1       PER_TENSOR    0.00828 0       
+    119     32 x 1 x 1 x 1        S LONG  STATIC_DATA   0x28dc20  (0, 0)      1 x 1       4           4           -1      1       PER_TENSOR    0.00015 0       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    117     1 x 1 x 1 x 32        S CHAR  SCRATCH_RAM   0x2bb488  (0, 0)      1 x 1       32          32          -1      4       PER_TENSOR    0.08515 22      
+  Est. Processing Time: 0.026 ms
+
+OPERATION 61: RESHAPE (Working Mem: 0x00280000, Params: 0x00010000)
+  Parameters:
+    unpadded=True, transpose=False
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    117     1 x 1 x 1 x 32        S CHAR  SCRATCH_RAM   0x2bb488  (0, 0)      1 x 1       32          32          -1      4       PER_TENSOR    0.08515 22      
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    120     1 x 8 x 4 x 1         S CHAR  SCRATCH_RAM   0x2bb488  (0, 0)      8 x 4       4           32          117     2       PER_TENSOR    0.08515 22      
+  Est. Processing Time: 0.000 ms
+
+OPERATION 62: CONCATENATE (Working Mem: 0x00280000, Params: 0x00000254)
+  Parameters:
+    axis=1, scales=1.0426, 0.8923, 0.9110, offsets=5.6385, -14.4616, -18.1994
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    58      1 x 640 x 3 x 1       S CHAR  SCRATCH_RAM   0x2b7b80  (0, 0)      640 x 3     3           1920        55      2       PER_TENSOR    0.04707 -15     
+    84      1 x 160 x 3 x 1       S CHAR  SCRATCH_RAM   0x2ba3a0  (0, 0)      160 x 3     3           480         81      2       PER_TENSOR    0.04028 5       
+    113     1 x 8 x 3 x 1         S CHAR  SCRATCH_RAM   0x2bb4a8  (0, 0)      8 x 3       3           24          110     2       PER_TENSOR    0.04113 9       
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    121     1 x 808 x 3 x 1       S CHAR  SCRATCH_RAM   0x2bab10  (0, 0)      808 x 3     3           2424        -1      2       PER_TENSOR    0.04515 -10     
+  Est. Processing Time: 0.014 ms
+
+OPERATION 63: CONCATENATE (Working Mem: 0x00280000, Params: 0x00000270)
+  Parameters:
+    axis=1, scales=0.6349, 0.7389, 1.2323, offsets=15.0953, 15.5222, -10.1115
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    65      1 x 640 x 4 x 1       S CHAR  SCRATCH_RAM   0x2b7180  (0, 0)      640 x 4     4           2560        62      2       PER_TENSOR    0.04387 3       
+    91      1 x 160 x 4 x 1       S CHAR  SCRATCH_RAM   0x2ba120  (0, 0)      160 x 4     4           640         88      2       PER_TENSOR    0.05106 2       
+    120     1 x 8 x 4 x 1         S CHAR  SCRATCH_RAM   0x2bb488  (0, 0)      8 x 4       4           32          117     2       PER_TENSOR    0.08515 22      
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    122     1 x 808 x 4 x 1       S CHAR  SCRATCH_RAM   0x2b9480  (0, 0)      808 x 4     4           3232        -1      2       PER_TENSOR    0.06910 17      
+  Est. Processing Time: 0.019 ms
+
+OPERATION 64: SIGMOID (Working Mem: 0x002b22e0, Params: 0x00000000)
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    121     1 x 808 x 3 x 1       S CHAR  SCRATCH_RAM   0x2bab10  (0, 0)      808 x 3     3           2424        -1      2       PER_TENSOR    0.04515 -10     
+  Outputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    123     1 x 808 x 3 x 1       S CHAR  SCRATCH_RAM   0x2ba198  (0, 0)      808 x 3     3           2424        -1      2       PER_TENSOR    0.00391 -128    
+  Est. Processing Time: 0.217 ms
+
+OPERATION 65: POSTPROC_ANCHOR_BOXES (Working Mem: 0x002b2f80, Params: 0x0000028c)
+  Parameters:
+    scales=0.0069,0.0069,0.0138,0.0138,0.3909, offsets=-0.1175,-0.1175,0.7651,0.7651,50.0336, data_addr=    dca0
+  Inputs:
+    ID      Dimensions            Type    Location      Address   Data Start  Data Size   Row Stride  Bat Stride  Parent  # Con   Quant Type    QS[0]   QZ[0]   
+    122     1 x 808 x 4 x 1       S CHAR  SCRATCH_RAM   0x2b9480  (0, 0)      808 x 4     4           3232        -1      2       PER_TENSOR    0.06910 17      
+    124     1 x 808 x 3 x 1       S CHAR  SCRATCH_RAM   0x2ba199  (0, 1)      808 x 2     3           2424        123     2       PER_TENSOR    0.00391 -128    
+  Est. Processing Time: 0.496 ms
+
+-------------------------------------------------
+PERFORMANCE SUMMARY
+-------------------------------------------------
+Operation Type           Total Time (ms)
+DEPTHWISE_CONV_2D        40.433
+CONV_2D                  42.618
+RESHAPE                  0.000
+CONCATENATE              0.034
+SIGMOID                  0.217
+POSTPROC_ANCHOR_BOXES    0.496
+----------
+TOTAL                    83.912

@@ -1,0 +1,94 @@
+INFO:root:Model created
+INFO:root:Epoch: 0, Step: 100, Average Loss: 2.3284
+INFO:root:Epoch: 0, Step: 200, Average Loss: 2.3098
+INFO:root:Epoch: 0, Step: 300, Average Loss: 2.3061
+INFO:root:Epoch: 0, Step: 400, Average Loss: 2.3046
+INFO:root:Epoch: 0, Step: 500, Average Loss: 2.3041
+INFO:root:Epoch: 0, Step: 600, Average Loss: 2.3039
+INFO:root:Epoch: 0, Step: 700, Average Loss: 2.3032
+INFO:root:Epoch: 0, Step: 800, Average Loss: 2.3049
+INFO:root:Epoch: 0, Step: 900, Average Loss: 2.3042
+INFO:root:Epoch: 0, Step: 1000, Average Loss: 2.3032
+INFO:root:Epoch: 0, Step: 1100, Average Loss: 2.3033
+INFO:root:Epoch: 0, Step: 1200, Average Loss: 2.3033
+INFO:root:Epoch: 0, Step: 1300, Average Loss: 2.3031
+INFO:root:Epoch: 0, Step: 1400, Average Loss: 2.3030
+INFO:root:Epoch: 0, Step: 1500, Average Loss: 2.3031
+INFO:root:Epoch: 0, Training Loss: 2.3031, Validation Loss: 2.2955, Validation Acc: 0.1000
+INFO:root:Epoch: 1, Step: 100, Average Loss: 2.3261
+INFO:root:Epoch: 1, Step: 200, Average Loss: 2.3030
+INFO:root:Epoch: 1, Step: 300, Average Loss: 2.3024
+INFO:root:Epoch: 1, Step: 400, Average Loss: 2.3031
+INFO:root:Epoch: 1, Step: 500, Average Loss: 2.3029
+INFO:root:Epoch: 1, Step: 600, Average Loss: 2.3029
+INFO:root:Epoch: 1, Step: 700, Average Loss: 2.3027
+INFO:root:Epoch: 1, Step: 800, Average Loss: 2.3027
+INFO:root:Epoch: 1, Step: 900, Average Loss: 2.3028
+INFO:root:Epoch: 1, Step: 1000, Average Loss: 2.3025
+INFO:root:Epoch: 1, Step: 1100, Average Loss: 2.3029
+INFO:root:Epoch: 1, Step: 1200, Average Loss: 2.3027
+INFO:root:Epoch: 1, Step: 1300, Average Loss: 2.3026
+INFO:root:Epoch: 1, Step: 1400, Average Loss: 2.3028
+INFO:root:Epoch: 1, Step: 1500, Average Loss: 2.3028
+INFO:root:Epoch: 1, Training Loss: 2.3028, Validation Loss: 2.2953, Validation Acc: 0.1000
+INFO:root:Epoch: 2, Step: 100, Average Loss: 2.3255
+INFO:root:Epoch: 2, Step: 200, Average Loss: 2.3027
+INFO:root:Epoch: 2, Step: 300, Average Loss: 2.3027
+INFO:root:Epoch: 2, Step: 400, Average Loss: 2.3028
+INFO:root:Epoch: 2, Step: 500, Average Loss: 2.3028
+INFO:root:Epoch: 2, Step: 600, Average Loss: 2.3026
+INFO:root:Epoch: 2, Step: 700, Average Loss: 2.3028
+INFO:root:Epoch: 2, Step: 800, Average Loss: 2.3026
+INFO:root:Epoch: 2, Step: 900, Average Loss: 2.3026
+INFO:root:Epoch: 2, Step: 1000, Average Loss: 2.3031
+INFO:root:Epoch: 2, Step: 1100, Average Loss: 2.3028
+INFO:root:Epoch: 2, Step: 1200, Average Loss: 2.3027
+INFO:root:Epoch: 2, Step: 1300, Average Loss: 2.3027
+INFO:root:Epoch: 2, Step: 1400, Average Loss: 2.3027
+INFO:root:Epoch: 2, Step: 1500, Average Loss: 2.3028
+INFO:root:Epoch: 2, Training Loss: 2.3028, Validation Loss: 2.2953, Validation Acc: 0.1000
+INFO:root:Epoch: 3, Step: 100, Average Loss: 2.3256
+INFO:root:Epoch: 3, Step: 200, Average Loss: 2.3026
+INFO:root:Epoch: 3, Step: 300, Average Loss: 2.3026
+INFO:root:Epoch: 3, Step: 400, Average Loss: 2.3027
+INFO:root:Epoch: 3, Step: 500, Average Loss: 2.3026
+INFO:root:Epoch: 3, Step: 600, Average Loss: 2.3028
+INFO:root:Epoch: 3, Step: 700, Average Loss: 2.3028
+INFO:root:Epoch: 3, Step: 800, Average Loss: 2.3023
+INFO:root:Epoch: 3, Step: 900, Average Loss: 2.3029
+INFO:root:Epoch: 3, Step: 1000, Average Loss: 2.3027
+INFO:root:Epoch: 3, Step: 1100, Average Loss: 2.3028
+INFO:root:Epoch: 3, Step: 1200, Average Loss: 2.3027
+INFO:root:Epoch: 3, Step: 1300, Average Loss: 2.3028
+INFO:root:Epoch: 3, Step: 1400, Average Loss: 2.3028
+INFO:root:Epoch: 3, Step: 1500, Average Loss: 2.3027
+INFO:root:Epoch: 3, Training Loss: 2.3027, Validation Loss: 2.2953, Validation Acc: 0.1000
+INFO:root:Epoch: 4, Step: 100, Average Loss: 2.3255
+INFO:root:Epoch: 4, Step: 200, Average Loss: 2.3027
+INFO:root:Epoch: 4, Step: 300, Average Loss: 2.3026
+INFO:root:Epoch: 4, Step: 400, Average Loss: 2.3026
+INFO:root:Epoch: 4, Step: 500, Average Loss: 2.3028
+INFO:root:Epoch: 4, Step: 600, Average Loss: 2.3027
+INFO:root:Epoch: 4, Step: 700, Average Loss: 2.3026
+INFO:root:Epoch: 4, Step: 800, Average Loss: 2.3027
+INFO:root:Epoch: 4, Step: 900, Average Loss: 2.3030
+INFO:root:Model created
+INFO:root:Epoch: 0, Step: 100, Average Loss: 2.3314
+INFO:root:Epoch: 0, Step: 200, Average Loss: 2.3055
+INFO:root:Epoch: 0, Step: 300, Average Loss: 2.3050
+INFO:root:Epoch: 0, Step: 400, Average Loss: 2.3034
+INFO:root:Epoch: 0, Step: 500, Average Loss: 2.3044
+INFO:root:Epoch: 0, Step: 600, Average Loss: 2.3042
+INFO:root:Epoch: 0, Step: 700, Average Loss: 2.3043
+INFO:root:Epoch: 0, Step: 800, Average Loss: 2.3036
+INFO:root:Epoch: 0, Step: 900, Average Loss: 2.3041
+INFO:root:Epoch: 0, Step: 1000, Average Loss: 2.3026
+INFO:root:Epoch: 0, Step: 1100, Average Loss: 2.3038
+INFO:root:Epoch: 0, Step: 1200, Average Loss: 2.3028
+INFO:root:Epoch: 0, Step: 1300, Average Loss: 2.3042
+INFO:root:Epoch: 0, Step: 1400, Average Loss: 2.3031
+INFO:root:Epoch: 0, Step: 1500, Average Loss: 2.3031
+INFO:root:Epoch: 0, Training Loss: 2.3031, Validation Loss: 2.2956, Validation Acc: 0.1000
+INFO:root:Converting the model (post-training)...
+INFO:root:Quantization done.
+INFO:root:Model saved to C:\Users\7000031151\OneDrive - Sony\04_IMX681\Compiler\dnn_compiler_v3.19\dnn_compiler_v3.19\dnn_compiler_v3.19_python_3.10\model_quantized.pth

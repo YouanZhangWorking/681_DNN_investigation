@@ -1,0 +1,10 @@
+INFO:root:Model created
+INFO:root:Epoch: 0, Training Loss: 0.2537, Validation Loss: 2.0962, Validation Acc: 0.1219
+INFO:root:Converting the model (post-training)...
+INFO:root:Quantization done.
+INFO:root:Model saved to C:\Users\7000031151\OneDrive - Sony\04_IMX681\Compiler\dnn_compiler_v3.19\dnn_compiler_v3.19\dnn_compiler_v3.19_python_3.10\sample_code\pytorch_classification_with_state\model_quantized.pth
+INFO:root:Model created
+INFO:root:Epoch: 0, Training Loss: 0.2535, Validation Loss: 2.0976, Validation Acc: 0.0813
+INFO:root:Converting the model (post-training)...
+INFO:root:Quantization done.
+INFO:root:Model saved to C:\Users\7000031151\OneDrive - Sony\04_IMX681\Compiler\dnn_compiler_v3.19\dnn_compiler_v3.19\dnn_compiler_v3.19_python_3.10\sample_code\pytorch_classification_with_state\model_quantized.pth

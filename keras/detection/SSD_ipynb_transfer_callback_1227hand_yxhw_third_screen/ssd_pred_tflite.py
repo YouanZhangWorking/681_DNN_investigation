@@ -120,13 +120,9 @@ class SSD(object):
         
         # tflite predict
         import tensorflow as tf
-        # tflite_model = r"/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/Quantization/20240810_pc_screen.tflite"
-        # tflite_model = r"/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/Quantization/20240810_pc_screen_3_another_init.tflite"
-        # tflite_model = r"/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/Quantization/20240810_pc_screen_5_ssd_init.tflite"
-        # tflite_model = r"/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/SSD_ipynb_transfer_callback_1227hand_yxhw_third_screen/20240810_pc_screen_3_another_init_qat.tflite"
-        # tflite_model = r"/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/SSD_ipynb_transfer_callback_1227hand_yxhw_third_screen/20240810_pc_screen_5_another_init_qat.tflite"
-        # tflite_model = r"/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/SSD_ipynb_transfer_callback_1227hand_yxhw_third_screen/output/pc_screen_681_qat_norm_de_aug_20240822.tflite"
-        tflite_model = r"/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/SSD_ipynb_transfer_callback_1227hand_yxhw_third_screen/output/20241120_pre_82_re_63_gesture.tflite"
+        # tflite_model = r"/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/SSD_ipynb_transfer_callback_1227hand_yxhw_third_screen/output/20241120_pre_82_re_63_gesture.tflite"
+        # tflite_model = r"/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/SSD_ipynb_transfer_callback_1227hand_yxhw_third_screen/tmpp8s39duo_nakao_book.tflite"
+        tflite_model = r"/home/zhangyouan/桌面/zya/NN_net/network/SSD/IMX_681_ssd_mobilenet_git/keras/detection/SSD_ipynb_transfer_callback_1227hand_yxhw_third_screen/llllllll.tflite"
         interpreter = tf.lite.Interpreter(model_path = tflite_model)
         interpreter.allocate_tensors()
         input_details = interpreter.get_input_details()  # 设置网络输入
